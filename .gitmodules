@@ -1,0 +1,3 @@
+[submodule "pack/nvim/start/nvim-lspconfig"]
+	path = pack/nvim/start/nvim-lspconfig
+	url = https://github.com/NvChad/NvChad.git
