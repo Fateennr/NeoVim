@@ -1,0 +1,243 @@
+{
+    "login": {
+        "title": "Masuk",
+        "welcome": "Selamat datang",
+        "email": "Nama Pengguna/Email",
+        "password": "Kata sandi",
+        "forgot_password": "Lupa Kata Sandi?",
+        "account_question": "Belum punya Akun?",
+        "signup_here": "Daftar di sini!",
+        "error": "Nama pengguna dan/atau kata sandi tidak valid",
+        "errors": {
+            "invalid-credentials": "Nama pengguna dan/atau kata sandi tidak valid",
+            "rate-limit": "Upaya terlalu banyak, harap coba lagi nanti"
+        },
+        "cta": "Login"
+    },
+    "recover": {
+        "title": "Lupa Kata Sandi",
+        "message": "Masukkan alamat email yang Anda gunakan untuk mendaftar. Kami akan mengirimkan email dengan petunjuk cara mengatur ulang kata sandi Anda.",
+        "error": "Masukkan alamat email yang valid",
+        "email": "Email",
+        "back_to_login": "Kembali ke login",
+        "cta": "Atur ulang"
+    },
+    "recover_success": {
+        "title": "Periksa kotak masuk Anda",
+        "description": "Jika alamat email tersebut terdaftar di ZenMate VPN, Anda akan menerima tautan pengaturan ulang kata sandi di email Anda."
+    },
+    "home": {
+        "protection_disabled": "Proteksi dinonaktifkan",
+        "state": "ZenMate saat ini dinonaktifkan",
+        "last_location": "Lokasi yang terakhir digunakan",
+        "best_location": "Lokasi Terbaik",
+        "connected_to": "Terhubung ke",
+        "smart_location": "<b>Smart Location</b> terhubung ke <b>{{country}}</b>"
+    },
+    "debug": {
+        "copy_debug": "Salin log",
+        "clear_debug": "Hapus log",
+        "no_logs": "Tidak ada log untuk saat ini"
+    },
+    "menu": {
+        "title": "Menu",
+        "account_details": "Detail akun",
+        "username": "Nama pengguna ",
+        "end_date": "Tanggal selesai",
+        "trial_end_date": "Uji coba berakhir pada",
+        "manage_account": "Kelola Akun",
+        "logout": "Keluar",
+        "login": "Login",
+        "features": "Fitur",
+        "language": "Bahasa",
+        "support": "Dukungan",
+        "upgrade": "Tingkatkan ke Ultimate",
+        "upgrade_pro": "Tingkatkan ke Pro",
+        "trial_start": "Mulai Uji Coba Sekarang",
+        "tour": "Tur Cepat",
+        "debug": "Debug",
+        "debug_mode": "Mode Debug",
+        "view_debug": "Lihat Debug Log",
+        "dark_theme": "Dark Theme"
+    },
+    "servers": {
+        "title": "Ubah Lokasi",
+        "all_countries": "Semua negara",
+        "streaming": "Layanan streaming",
+        "favorites": "Favorit",
+        "unblock_more": "Buka blokir lebih banyak server dengan Pro"
+    },
+    "features": {
+        "title": "Fitur",
+        "smart_location": {
+            "title": "Smart Location",
+            "state_title_on": "Smart Location AKTIF",
+            "state_title_off": "Smart Location NONAKTIF",
+            "state_description": "Sesuaikan bagaimana ZenMate terhubung ke situs web favorit Anda dengan mengalihkan lokasi secara otomatis saat Anda mengunjunginya!",
+            "website_url": "URL situs web",
+            "change_country": "Ubah negara",
+            "websites_added": "Situs web sudah ditambahkan",
+            "error_existing": "Anda sudah menambahkan situs web ini ke Whitelist Anda. Situs web yang sama tidak dapat berada di daftar Smart Location dan Whitelist secara bersamaan. Hapus dari salah satu untuk melanjutkan."
+        },
+        "privacy": {
+            "title": "Privasi",
+            "tracking_title": "Pemblokir Pelacakan",
+            "tracking_description": "Lindungi privasi Anda dengan memblokir layanan pihak ketiga dari pelacakan aktivitas online.",
+            "malware_title": "Pemblokir Malware",
+            "malware_description": "Aktifkan pemblokiran situs berbahaya dan potongan kode sebelum mencapai browser Anda.",
+            "webrtc_title": "WebRTC Protect",
+            "webrtc_description": "WebRTC Protect akan memastikan alamat IP Anda tidak pernah diungkapkan secara online.",
+            "noSpyCamera": "Tidak Ada Kamera Pengintai",
+            "noSpyCameraDescription": "Larang situs web mengakses kamera web Anda melalui browser dan memfilmkan Anda tanpa pengetahuan atau persetujuan Anda.",
+            "noSpyAudio": "Tidak Ada Audio Pengintai",
+            "noSpyAudioDescription": "Cegah situs web mengambil rekaman suara secara tidak sah melalui mikrofon komputer Anda.",
+            "blockGeoTracking": "Blokir Pelacakan Geografis",
+            "blockGeoTrackingDesctiption": "Hentikan situs web dari menentukan lokasi geografis Anda saat ini.",
+            "stopNetworkPredictions": "Hentikan Prediksi Jaringan",
+            "stopNetworkPredictionsDescrption": "Hentikan Google dari melacak aktivitas Anda melalui Prediksi Jaringan karena Google membuat log terkait situs web yang dikunjungi sebelumnya.",
+            "stopSafeBrowsing": "Hentikan Pelacakan Safe Browsing",
+            "stopSafeBrowsingDescrption": "Google melacak kunjungan Anda ke situs web yang tidak aman melalui Fitur Safe Browsing mereka. Matikan fitur ini untuk memastikan privasi penuh.",
+            "privateCreditCard": "Kartu Kredit Pribadi",
+            "privateCreditCardDescription": "Cegah kebocoran informasi perbankan Anda kepada pihak yang tidak bertanggung jawab dengan menghentikan fungsi pengisian otomatis di browser Anda.",
+            "privateAccess": "Alamat Pribadi",
+            "privateAccessDescription": "Cegah pihak ketiga mengakses informasi geografis Anda dengan menonaktifkan pengaturan pengisian otomatis alamat di browser Anda.",
+            "blockCookieColletion": "Blokir Pengumpulan Cookie",
+            "blockCookieCollection": "Blokir situs web yang mengumpulkan cookie tanpa persetujuan dari Anda.",
+            "blockCookiePopUps": "Blokir Pop-up Cookie",
+            "blockCookiePopUpsDescription": "Blokir pop-up situs web dengan pemberitahuan 'kami menggunakan cookie'.",
+            "fingerPrintProtection": "Perlindungan sidik jari",
+            "fingerPrintProtectionDescription": "Lindungi dari sidik jari browser dengan memberikan informasi generik."
+        },
+        "whitelist": {
+            "title": "Whitelist",
+            "state_title_on": "Whitelist AKTIF",
+            "state_title_off": "Whitelist NONAKTIF",
+            "state_description": "Tidak ingin terhubung ke ZenMate ketika menelusuri situs web tertentu? Cukup tambahkan situs web ke whitelist dan VPN akan secara otomatis nonaktif ketika Anda mengunjungi situs web favorit Anda.",
+            "website_url": "URL situs web",
+            "websites_added": "Situs web sudah ditambahkan",
+            "error_existing": "Anda sudah menambahkan situs web ini ke Smart Location Anda. Situs web yang sama tidak dapat berada di daftar Smart Location dan Whitelist secara bersamaan. Hapus dari salah satu untuk melanjutkan."
+        },
+        "stealth-connection": {
+            "title": "Stealth Connection",
+            "state_title_on": "Stealth Connection AKTIF",
+            "state_title_off": "Stealth Connection NONAKTIF",
+            "ask_every_time": "Tanyakan setiap kali",
+            "state_description": "<b>Stealth Connection</b> menghapus cookie, membersihkan riwayat penjelajahan & cache Anda. Setelah Anda memutuskan koneksi VPN, <b>Stealth Connection</b> menghapus setiap jejak aktivitas penjelajahan Anda sejak Anda pertama kali terhubung ke ZenMate.",
+            "website_url": "URL situs web",
+            "websites_added": "Situs web sudah ditambahkan",
+            "error_existing": "Anda sudah menambahkan situs web ini ke Smart Location Anda. Situs web yang sama tidak dapat berada di daftar Smart Location dan Whitelist secara bersamaan. Hapus dari salah satu untuk melanjutkan."
+        }
+    },
+    "marketing_banner": {
+        "home1": "Lindungi semua perangkat Anda – Unduh ",
+        "home2": "dan ",
+        "home3": "atau ",
+        "windows_app": "aplikasi Windows ",
+        "ios_app": "aplikasi iOS ",
+        "android_app": "aplikasi Android ",
+        "macos_app": "aplikasi macOS ",
+        "download_cta": "Unduh sekarang",
+        "upgrade_cta": "Tingkatkan sekarang"
+    },
+    "inactive_banner": {
+        "smart_location": {
+            "text": "Sesuaikan bagaimana ZenMate terhubung ke situs web favorit Anda dengan mengalihkan lokasi secara otomatis saat mengunjunginya.",
+            "cta": "Buka Blokir Sekarang"
+        },
+        "whitelist": {
+            "text": "Tidak ingin terhubung ke ZenMate ketika menelusuri situs web tertentu? Cukup tambahkan situs web ke whitelist dan VPN akan secara otomatis nonaktif ketika Anda mengunjungi situs web favorit Anda.",
+            "cta": "Buka Blokir Sekarang"
+        },
+        "streaming": {
+            "text": "Tonton semua film dan acara TV yang Anda inginkan, meskipun jika tidak tersedia di negara Anda.",
+            "cta": "Buka Blokir Streaming"
+        },
+        "stealth-connection": {
+            "text": "Secara otomatis menghapus semua jejak sesi penelusuran Anda dengan fitur ZenMate Stealth Connection, tersedia untuk pengguna ZenMate Pro dan Ultimate.",
+            "cta": "Buka Blokir Sekarang"
+        }
+    },
+    "intro": {
+        "intro-heading": "<b>Selamat datang di ZenMate</b>",
+        "intro-default-heading": "<b>Buat & verifikasikan akun Anda</b><br /> untuk mendapatkan:",
+        "already-account": "Sudah punya akun?",
+        "login-here": "Login di sini!",
+        "signup-now": "Daftar Sekarang!",
+        "seven-days": "Uji coba gratis 7 hari"
+    },
+    "campaign": {
+        "heading": "Temukan dengan <br><b>ZenMate Ultimate</b>",
+        "features": {
+            "0": "Lebih dari 3600 server dari 74+ negara",
+            "1": "Buka blokir situs web & aplikasi terlarang.",
+            "2": "Terobos pembatasan geografis streaming",
+            "3": "Perlindungan untuk perangkat tanpa batas"
+        },
+        "cta": "Dapatkan ZenMate Ultimate",
+        "subCta": "Hanya dengan $2,22/bulan selama waktu terbatas",
+        "later": "Mungkin nanti"
+    },
+    "queue": {
+        "heading": "Sayangnya, semua <br> server kami sedang sibuk sekarang ",
+        "heading2": "Untuk menghindari kemacetan jaringan, <br> Anda akan segera bisa terhubung",
+        "no_waiting": "Tidak ingin menunggu?",
+        "upgrade": "Tingkatkan ke <b>ZenMate Pro</b> dan Anda akan selalu<br> memiliki server premium yang tersedia untuk Anda",
+        "upgrade_now": "Tingkatkan Sekarang"
+    },
+    "campaign_trial": {
+        "heading": "<b>Tingkatkan ke Ultimate</b><br> dan teruslah mendapatkan",
+        "cta": "Tingkatkan ke Ultimate Sekarang"
+    },
+    "popup_validation": {
+        "heading": "Hapus semua langkah saya",
+        "paragraph": "Fitur <b>Stealth Connection</b> diaktifkan. Apakah Anda ingin menghapus semua jejak Anda dari sesi ini? <small> <br />(menghapus cookie, membersihkan riwayat penjelajahan & cache)</small>",
+        "no_ask": "Jangan tanyakan lagi & ingat pengaturan saya",
+        "yes": "YA",
+        "no": "TIDAK"
+    },
+    "rateus": {
+        "heading": "Suka dengan ekstensi Anda?",
+        "description": "Klik bintang untuk membagikan umpan balik Anda"
+    },
+    "proxy-warning": {
+        "heading": "Peringatan proxy!",
+        "description": "Ekstensi browser lain sedang mengendalikan pengaturan proxy Anda sehingga <b>ZenMate</b> tidak dapat bekerja. Harap nonaktifkan ekstensi yang konflik.",
+        "cta": "Kelola Ekstensi"
+    },
+    "onboarding": {
+        "page1_menu": "Menu",
+        "page1_future": "Fitur Menarik",
+        "page1_connect": "Tombol Hubung",
+        "page2_click": "Klik di sini untuk mengubah lokasi",
+        "page3_congrats": "Selamat!",
+        "page3_connected": "Anda telah terhubung!",
+        "page3_click": "Tombol berdenyut, artinya Anda dapat menikmati ZenMate VPN sepenuhnya.",
+        "page4_select": "Pilih lokasi server Anda",
+        "page4_dedicated": "Server streaming khusus",
+        "page4_lcoation": "Tambahkan lokasi ke favorit Anda.",
+        "close": "Tutup",
+        "footer-title":"Click anywhere to continue"
+    },
+    "streaming_optimizations": {
+        "US_OPT": "Dioptimalkan untuk Netflix",
+        "DE_OPT": "Netflix, YouTube, ZDF, Zattoo",
+        "IT_OPT": "Dioptimalkan untuk Amazon Prime"
+    },
+    "error_screen": {
+        "title": "Sayangnya, layanan tidak tersedia di area Anda",
+        "content": "Sampaikan kepada kami jika Anda ingin ZenMate tersedia di area Anda dengan mengisi <span>permintaan dukungan pelanggan</span>"
+    },
+    "notifications": {
+        "logout": "Anda telah logout secara otomatis!"
+    },
+    "anonymous_consent": {
+        "title": "Privasi",
+        "content": "Dapatkah kami mengumpulkan data anonim berikut tentang penggunaan ZenMate VPN Gratis oleh Anda:",
+        "content2": "Kami mengumpulkan beban server per negara dan koneksi yang gagal untuk memastikan semua server bekerja dan dapat mengatasinya secara real-time untuk pengalaman yang lebih menyenangkan.",
+        "content3": "Jika Anda memilih untuk tidak mengizinkan kami mengumpulkan data anonim ketika server tidak berfungsi, maka kami akan kesulitan untuk mengetahui masalah tersebut.",
+        "content4": "Informasi lengkap tentang data anonim yang kami kumpulkan dan cara kami mengelolanya dapat Anda baca di",
+        "private_policy": "Kebijakan Privasi.",
+        "button1": "Ya, Anda dapat mengumpulkan data anonim sesuai dengan kebijakan privasi Anda",
+        "button2": "Tidak, jangan kumpulkan data anonim"
+    }
+}

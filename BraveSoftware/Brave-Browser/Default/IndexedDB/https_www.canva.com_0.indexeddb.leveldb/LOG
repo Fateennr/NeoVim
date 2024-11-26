@@ -1,0 +1,22 @@
+2024/11/24-23:23:05.216 3c6 Reusing MANIFEST /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/24-23:23:05.216 3c6 Recovering log #39
+2024/11/24-23:23:05.250 3c6 Reusing old log /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000039.log 
+2024/11/24-23:23:07.850 3b6 Level-0 table #44: started
+2024/11/24-23:23:07.869 3b6 Level-0 table #44: 1514647 bytes OK
+2024/11/24-23:23:07.875 3b6 Delete type=0 #39
+2024/11/24-23:23:07.875 3b6 Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/24-23:23:10.228 3b6 Compacting 1@1 + 1@2 files
+2024/11/24-23:23:10.248 3b6 Generated table #45@1: 243 keys, 46298 bytes
+2024/11/24-23:23:10.248 3b6 Compacted 1@1 + 1@2 files => 46298 bytes
+2024/11/24-23:23:10.254 3b6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/24-23:23:10.255 3b6 Delete type=2 #41
+2024/11/24-23:23:10.255 3b6 Delete type=2 #44
+2024/11/24-23:42:34.268 3b7 Level-0 table #47: started
+2024/11/24-23:42:34.289 3b7 Level-0 table #47: 1740061 bytes OK
+2024/11/24-23:42:34.290 3b7 Delete type=0 #43
+2024/11/24-23:42:41.628 3b7 Compacting 1@1 + 1@2 files
+2024/11/24-23:42:41.649 3b7 Generated table #48@1: 229 keys, 42500 bytes
+2024/11/24-23:42:41.649 3b7 Compacted 1@1 + 1@2 files => 42500 bytes
+2024/11/24-23:42:41.651 3b7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/24-23:42:41.652 3b7 Delete type=2 #45
+2024/11/24-23:42:41.652 3b7 Delete type=2 #47

@@ -1,0 +1,243 @@
+{
+    "login": {
+        "title": "Autentificare",
+        "welcome": "Bun venit",
+        "email": "Nume de utilizator/Email",
+        "password": "Parolă",
+        "forgot_password": "Ai uitat parola?",
+        "account_question": "Nu ai un cont?",
+        "signup_here": "Creează-ți cont aici!",
+        "error": "Numele de utilizator și/sau parolă invalid/ă",
+        "errors": {
+            "invalid-credentials": "Numele de utilizator și/sau parolă invalid/ă",
+            "rate-limit": "Prea multe încercări, te rugăm să încerci din nou mai târziu"
+        },
+        "cta": "Autentificare"
+    },
+    "recover": {
+        "title": "Ai uitat parola",
+        "message": "Introdu adresa de email pe care ai folosit-o pentru a-ți crea contul. Îți vom trimite un email cu intrucțiunile pentru resetarea parolei.",
+        "error": "Te rugăm să introduci o adresă de email validă",
+        "email": "Email",
+        "back_to_login": "Înapoi la autentificare",
+        "cta": "Resetează"
+    },
+    "recover_success": {
+        "title": "Verifică-ți căsuța de mail",
+        "description": "Dacă adresa de email este înregistrată în contul ZenMate VPN, trebuie să primești linkul de resetare a parolei acolo."
+    },
+    "home": {
+        "protection_disabled": "Protecție dezactivată",
+        "state": "ZenMate este momentan oprit",
+        "last_location": "Ultima locație folosită",
+        "best_location": "Cea mai bună Locaţie",
+        "connected_to": "Conectare la",
+        "smart_location": "<b>Smart Location</b> este conectat la <b>{{country}}</b>"
+    },
+    "debug": {
+        "copy_debug": "Copiază logurile",
+        "clear_debug": "Șterge logurile",
+        "no_logs": "Nu sunt loguri deocamdată"
+    },
+    "menu": {
+        "title": "Meniu",
+        "account_details": "Detalii cont",
+        "username": "Nume utilizator ",
+        "end_date": "Data de încheiere",
+        "trial_end_date": "Trialul se termină în",
+        "manage_account": "Administrare cont",
+        "logout": "Deconectare",
+        "login": "Autentificare",
+        "features": "Funcții",
+        "language": "Limba",
+        "support": "Suport",
+        "upgrade": "Upgradează la Ultimate",
+        "upgrade_pro": "Upgradează la Pro",
+        "trial_start": "Începe Perioada de Probă Acum",
+        "tour": "Tur Rapid",
+        "debug": "Depanare",
+        "debug_mode": "Modul de depanare",
+        "view_debug": "Vezi logul de depanare",
+        "dark_theme": "Dark Theme"
+    },
+    "servers": {
+        "title": "Schimbă locația",
+        "all_countries": "Toate țările",
+        "streaming": "Servicii de streaming",
+        "favorites": "Favorite",
+        "unblock_more": "Deblochează mai multe servere cu Pro"
+    },
+    "features": {
+        "title": "Funcții",
+        "smart_location": {
+            "title": "Smart Location",
+            "state_title_on": "Smart Location este activat",
+            "state_title_off": "Smart Location este dezactivat",
+            "state_description": "Personalizează modul în care ZenMate se conectează la siteurile tale preferate schimbând automat locațiile când le vizitezi!",
+            "website_url": "Adresa URL a websiteului",
+            "change_country": "Schimbă țara",
+            "websites_added": "Websiteuri deja adăugate",
+            "error_existing": "Ai adăugat deja acest website în Whitelist. Acelaşi website nu poate fi atât în lista ta cu Smart Location, cât şi în Whitelist. Scoate-l din una din liste pentru a continua."
+        },
+        "privacy": {
+            "title": "Setări de confidențialitate",
+            "tracking_title": "Tracking Blocker",
+            "tracking_description": "Protejează-ți confidențialitatea blocând serviciile terțelor părți de la urmărirea activității online.",
+            "malware_title": "Malware Blocker",
+            "malware_description": "Activează blocarea siteurilor și a fragmentelor de cod periculoase înainte ca acestea să ajungă în browserul tău.",
+            "webrtc_title": "Protecție WebRTC",
+            "webrtc_description": "Protecţia WebRTC se va asigura că adresa ta IP nu este niciodată dezvăluită online.",
+            "noSpyCamera": "Fără spionare prin camera web",
+            "noSpyCameraDescription": "Interzice site-urilor web să-ți acceseze camera web prin browser și să te filmeze fără cunoștința sau consimțământul tău.",
+            "noSpyAudio": "Fără spionare audio",
+            "noSpyAudioDescription": "Împiedică site-urile web să obțină ilegal înregistrări de voce prin microfonul computerului tău.",
+            "blockGeoTracking": "Blochează urmărirea geografică",
+            "blockGeoTrackingDesctiption": "Oprește site-urile web să stabilească locația ta geografică actuală.",
+            "stopNetworkPredictions": "Oprește predicțiile prin rețea",
+            "stopNetworkPredictionsDescrption": "Oprește Google să-ți urmărească activitatea prin Predicțiile prin rețea, deoarece Google înregistrează în log site-urile web vizitate anterior.",
+            "stopSafeBrowsing": "Oprește urmărirea prin funcția SafeBrowsing",
+            "stopSafeBrowsingDescrption": "Google îți urmărește vizitele pe site-urile web nesigure folosind funcția SafeBrowsing. Dezactiveaz-o pentru a asigura confidențialitatea completă.",
+            "privateCreditCard": "Card de credit privat",
+            "privateCreditCardDescription": "Previne scurgerea detaliilor tale bancare către părți rău-intenționate oprind funcția de completare automată a browserului tău.",
+            "privateAccess": "Adresă privată",
+            "privateAccessDescription": "Împiedică părțile terțe să acceseze informațiile tale geografice dezactivând setările de completare automată a adresei din browserul tău.",
+            "blockCookieColletion": "Blochează colectarea cookie-urilor",
+            "blockCookieCollection": "Blochează site-urile web de la colectarea cookie-urilor fără consimțământul tău.",
+            "blockCookiePopUps": "Blochează ferestrele pop-up de cookie-uri",
+            "blockCookiePopUpsDescription": "Blochează ferestrele pop-up ale site-urilor web cu notificări „utilizăm cookie-uri”.",
+            "fingerPrintProtection": "Protecție împotriva amprentării",
+            "fingerPrintProtectionDescription": "Protejează-te împotriva amprentării furnizând informații generice."
+        },
+        "whitelist": {
+            "title": "Whitelist",
+            "state_title_on": "Whitelist este activat",
+            "state_title_off": "Whitelist este dezactivat",
+            "state_description": "Vrei să nu te conectezi niciodată la ZenMate atunci când navighezi pe un anumit website? Doar adaugă-l în Whitelist și VPNul se va opri automat când vizitezi websiteul tău preferat.",
+            "website_url": "Adresa URL a websiteului",
+            "websites_added": "Websiteuri deja adăugate",
+            "error_existing": "Ai adăugat deja acest website în lista Smart Location. Același website nu poate fi atât în ​​lista Smart Location cât și în Whitelist. Scoate-l din unul din liste pentru a continua."
+        },
+        "stealth-connection": {
+            "title": "Stealth Connection",
+            "state_title_on": "Stealth Connection este activat",
+            "state_title_off": "Stealth Connection este dezactivat",
+            "ask_every_time": "Întreabă întotdeauna",
+            "state_description": "<b>Stealth Connection</b> elimină cookieurile, șterge istoricul de navigare și memoria cache. Odată ce deconectezi VPNul, <b>Stealth Connection</b> șterge orice urmă a activității tale de navigare online de când te-ai conectat pentru prima dată la ZenMate.",
+            "website_url": "Adresa URL a websiteului",
+            "websites_added": "Websiteuri deja adăugate",
+            "error_existing": "Ai adăugat deja acest website în lista Smart Location. Același website nu poate fi atât în ​​lista Smart Location, cât și în Whitelist. Scoate-l din unul din liste pentru a continua."
+        }
+    },
+    "marketing_banner": {
+        "home1": "Protejează-ți toate dispozitivele – Descarcă ",
+        "home2": "şi ",
+        "home3": "sau ",
+        "windows_app": "Aplicaţia Windows ",
+        "ios_app": "Aplicaţia iOS ",
+        "android_app": "Aplicaţia Android ",
+        "macos_app": "Aplicaţia macOS ",
+        "download_cta": "Descarcă acum",
+        "upgrade_cta": "Upgradează acum"
+    },
+    "inactive_banner": {
+        "smart_location": {
+            "text": "Personalizează modul în care ZenMate se conectează la siteurile tale preferate schimbând automat locațiile când le vizitezi.",
+            "cta": "Deblochează acum"
+        },
+        "whitelist": {
+            "text": "Vrei să nu te conectezi niciodată la ZenMate atunci când navighezi pe un anumit website? Doar adaugă-l în Whitelist și VPNul se va opri automat când vizitezi websiteul tău preferat.",
+            "cta": "Deblochează acum"
+        },
+        "streaming": {
+            "text": "Urmăreşte toate filmele şi showurile TV preferate, chiar dacă nu sunt disponibile în ţara ta.",
+            "cta": "Deblochează Streaming"
+        },
+        "stealth-connection": {
+            "text": "Șterge automat fiecare urmă a sesiunii tale de navigare cu funcția ZenMate Stealth Connection, disponibilă pentru utilizatorii ZenMate Pro și Ultimate.",
+            "cta": "Deblochează acum"
+        }
+    },
+    "intro": {
+        "intro-heading": "<b>Bine ai venit la ZenMate</b>",
+        "intro-default-heading": "<b>Creează & verifică-ţi contul</b><br /> pentru a experimenta:",
+        "already-account": "Ai deja cont?",
+        "login-here": "Autentifică-te aici!",
+        "signup-now": "Creează-ți cont acum!",
+        "seven-days": "7 zile de trial gratuit"
+    },
+    "campaign": {
+        "heading": "Descoperă cu <br><b>ZenMate Ultimate</b>",
+        "features": {
+            "0": "Peste 3600 de servere în peste 74 de țări",
+            "1": "Deblochează siteuri și aplicaţii restricţionate.",
+            "2": "Bypass streaming geo-restrictions",
+            "3": "Protecție pentru număr nelimitat de dispozitive"
+        },
+        "cta": "Obține ZenMate Ultimate",
+        "subCta": "Cu doar $2.22/lună pentru o perioadă limitată",
+        "later": "Poate mai târziu"
+    },
+    "queue": {
+        "heading": "Din păcate, toate <br> serverele noastre sunt ocupate acum ",
+        "heading2": "Pentru a evita aglomerarea, <br> te vei putea conecta curând",
+        "no_waiting": "Nu vrei să aștepți?",
+        "upgrade": "Upgradează la <b>ZenMate Pro</b> şi vei avea mereu <br> servere premium disponibile pentru tine",
+        "upgrade_now": "Upgrade"
+    },
+    "campaign_trial": {
+        "heading": "<b>Upgradează la Ultimate</b><br> şi continuă experienţa",
+        "cta": "Upgradează la Ultimate Acum"
+    },
+    "popup_validation": {
+        "heading": "Şterge-mi toţi paşii",
+        "paragraph": "Funcţia <b>Stealth Connection</b> este activată. Vrei să-ţi ștergi complet toate elementele din această sesiune? <small> <br />(elimină cookieurile, șterge istoricul de navigare și memoria cache)</small>",
+        "no_ask": "Nu mai întreba din nou & reţine-mi setările",
+        "yes": "Da",
+        "no": "Nu"
+    },
+    "rateus": {
+        "heading": "Te încantă extensia noastră?",
+        "description": "Dă clic pe stele pentru a lăsa feedback"
+    },
+    "proxy-warning": {
+        "heading": "Avertisment proxy!",
+        "description": "O altă extensie de browser controlează setările tale proxy, împiedicând <b>ZenMate</b> să funcționeze. Te rugăm să dezactivezi orice extensie aflată în conflict.",
+        "cta": "Gestionează Extensiile"
+    },
+    "onboarding": {
+        "page1_menu": "Meniu",
+        "page1_future": "Opțiuni Avansate",
+        "page1_connect": "Buton de Conectare",
+        "page2_click": "Clic aici pentru a schimba locaţia",
+        "page3_congrats": "Felicitări!",
+        "page3_connected": "Ești conectat!",
+        "page3_click": "Butonul s-a aprins, ceea ce înseamnă că te poţi bucura pe deplin de ZenMate VPN.",
+        "page4_select": "Alege locația serverului",
+        "page4_dedicated": "Servere dedicate streamingului",
+        "page4_lcoation": "Adaugă locaţii la favorite.",
+        "close": "Închide",
+        "footer-title":"Click anywhere to continue"
+    },
+    "streaming_optimizations": {
+        "US_OPT": "Optimizat pentru Netflix",
+        "DE_OPT": "Netflix, Youtube, ZDF, Zattoo",
+        "IT_OPT": "Optimizat pentru Amazon Prime"
+    },
+    "error_screen": {
+        "title": "Din păcate serviciul nu este disponibil în regiunea ta",
+        "content": "Anunţă-ne că ai vrea ca ZenMate să fie disponibil în regiunea ta completând o <span>cerere de asistență pentru clienți</span>"
+    },
+    "notifications": {
+        "logout": "Ai fost delogat în mod automat!"
+    },
+    "anonymous_consent": {
+        "title": "Viață Privată",
+        "content": "Putem colecta următoarele date anonime despre utilizarea VPN-ului gratuit ZenMate de către tine:",
+        "content2": "Colectăm date despre încărcarea serverului pe țară și despre conectările eșuate, pentru a ne asigura că toate serverele funcționează și că putem rezolva problemele în timp real, pentru o experiență mai plăcută.",
+        "content3": "Dacă optezi să nu ne permiți să colectăm date anonime dacă un server nu funcționează, ne va fi mai dificil să aflăm despre problemă.",
+        "content4": "Detalii complete despre datele anonime pe care le colectăm și ceea ce facem cu ele sunt furnizate în",
+        "private_policy": "Politica noastră de confidențialitate.",
+        "button1": "Da, puteți colecta date anonime în conformitate cu politica dvs. de confidențialitate",
+        "button2": "Nu, nu colectați date anonime"
+    }
+}

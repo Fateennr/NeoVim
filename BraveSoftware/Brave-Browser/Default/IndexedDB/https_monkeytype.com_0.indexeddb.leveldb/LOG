@@ -1,0 +1,3 @@
+2024/11/26-01:53:24.069 870 Creating DB /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb since it was missing.
+2024/11/26-01:53:24.071 870 Reusing MANIFEST /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/26-01:53:24.098 87e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

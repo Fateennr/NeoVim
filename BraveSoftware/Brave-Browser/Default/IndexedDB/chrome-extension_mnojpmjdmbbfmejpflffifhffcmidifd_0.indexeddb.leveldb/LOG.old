@@ -1,0 +1,6 @@
+2024/11/26-02:10:16.209 4d2 Reusing MANIFEST /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_mnojpmjdmbbfmejpflffifhffcmidifd_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/26-02:10:16.210 4d2 Recovering log #3
+2024/11/26-02:10:16.232 4d2 Reusing old log /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_mnojpmjdmbbfmejpflffifhffcmidifd_0.indexeddb.leveldb/000003.log 
+2024/11/26-02:10:17.149 4d4 Level-0 table #5: started
+2024/11/26-02:10:17.156 4d4 Level-0 table #5: 831641 bytes OK
+2024/11/26-02:10:17.158 4d4 Delete type=0 #3

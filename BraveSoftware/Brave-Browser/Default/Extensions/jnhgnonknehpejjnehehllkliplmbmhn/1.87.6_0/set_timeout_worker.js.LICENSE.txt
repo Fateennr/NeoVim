@@ -1,0 +1,13 @@
+/**
+ * @preserve
+ * When scraping a sitemap Web Scraper creates a window with two tabs.
+ * First - for scraper state, second - target site.
+ * The browser will throttle setTimeout() in the scraper state tab because it is
+ * not focused. The only way to make setTimeout work fast is to override the
+ * function and instead run it in a worker.
+ *
+ * This override is only active when data scraping is in progress and only
+ * within scraper state tab.
+ *
+ * @link https://developer.chrome.com/blog/timer-throttling-in-chrome-88/
+ */

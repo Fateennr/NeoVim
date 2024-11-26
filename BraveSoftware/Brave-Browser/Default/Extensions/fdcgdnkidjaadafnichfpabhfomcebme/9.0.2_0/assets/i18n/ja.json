@@ -1,0 +1,243 @@
+{
+    "login": {
+        "title": "サインイン",
+        "welcome": "ようこそ",
+        "email": "ユーザー名／メール",
+        "password": "パスワード",
+        "forgot_password": "パスワードを忘れた場合",
+        "account_question": "アカウントをお持ちでない場合",
+        "signup_here": "こちらで登録！",
+        "error": "ユーザー名またはパスワード、あるいはその両方が無効です",
+        "errors": {
+            "invalid-credentials": "ユーザー名またはパスワード、あるいはその両方が無効です",
+            "rate-limit": "試行回数が多すぎます、後でもう一度お試しください"
+        },
+        "cta": "ログイン"
+    },
+    "recover": {
+        "title": "パスワードを忘れた場合",
+        "message": "登録時に使用したメールアドレスを入力してください。パスワードのリセット手順をメールでお送りします。",
+        "error": "有効なメールアドレスを入力してください",
+        "email": "メール",
+        "back_to_login": "ログイン画面に戻る",
+        "cta": "リセット"
+    },
+    "recover_success": {
+        "title": "受信トレイを調べてください",
+        "description": "このメールアドレスがZenMate VPNに登録されている場合は、そのメールアドレス宛にパスワードリセット用のリンクが送られます。"
+    },
+    "home": {
+        "protection_disabled": "保護は無効になっています",
+        "state": "現在、ZenMateは無効です",
+        "last_location": "最後に使用したロケーション",
+        "best_location": "ベストロケーション",
+        "connected_to": "接続先：",
+        "smart_location": "<b>スマートロケーション</b>は<b>{{country}}</b>に接続済み"
+    },
+    "debug": {
+        "copy_debug": "ログをコピー",
+        "clear_debug": "ログを消去",
+        "no_logs": "現在、ログはありません"
+    },
+    "menu": {
+        "title": "メニュー",
+        "account_details": "アカウントの詳細",
+        "username": "ユーザー名 ",
+        "end_date": "終了日",
+        "trial_end_date": "お試し期間の終了日",
+        "manage_account": "アカウントを管理",
+        "logout": "ログアウト",
+        "login": "ログイン",
+        "features": "機能",
+        "language": "言語",
+        "support": "サポート",
+        "upgrade": "Ultimateにアップグレード",
+        "upgrade_pro": "Proにアップグレード",
+        "trial_start": "今すぐお試し期間を始める",
+        "tour": "クイックツアー",
+        "debug": "デバッグ",
+        "debug_mode": "デバッグモード",
+        "view_debug": "デバッグログを表示",
+        "dark_theme": "Dark Theme"
+    },
+    "servers": {
+        "title": "ロケーションを変更",
+        "all_countries": "すべての国",
+        "streaming": "ストリーミングサービス",
+        "favorites": "お気に入り",
+        "unblock_more": "Proでさらに多くのサーバーをブロック解除"
+    },
+    "features": {
+        "title": "機能",
+        "smart_location": {
+            "title": "スマートロケーション",
+            "state_title_on": "スマートロケーションはオンです",
+            "state_title_off": "スマートロケーションはオフです",
+            "state_description": "お気に入りのWebサイトにアクセスするとき、ロケーションを自動的に切り替えることで、ZenMateがそれらのWebサイトに接続する方法をカスタマイズできます。",
+            "website_url": "WebサイトのURL",
+            "change_country": "国を変更",
+            "websites_added": "すでに追加されたWebサイト",
+            "error_existing": "このWebサイトはすでにホワイトリストに追加されています。スマートロケーションリストとホワイトリストの両方に同じWebサイトを登録することはできません。続行するには、どちらかからそのWebサイトを削除してください。"
+        },
+        "privacy": {
+            "title": "プライバシー",
+            "tracking_title": "トラッキングブロッカー",
+            "tracking_description": "サードパーティのサービスがオンラインアクティビティを追跡できないようにブロックすることで、プライバシーを保護します。",
+            "malware_title": "マルウェアブロッカー",
+            "malware_description": "悪意のあるサイトやコードスニペットのブロックを有効にして、それらがブラウザに到達できないようにします。",
+            "webrtc_title": "WebRTC Protect",
+            "webrtc_description": "WebRTC Protectを有効にすると、IPアドレスがオンライン上で公開されなくなります。",
+            "noSpyCamera": "スパイカメラ防止",
+            "noSpyCameraDescription": "Webサイトがブラウザ経由でお持ちのウェブカムにアクセスすることや、認知や承諾なしにあなたを撮影することを禁止します。",
+            "noSpyAudio": "スパイオーディオ防止",
+            "noSpyAudioDescription": "Webサイトがお持ちのコンピュータのマイクを介して音声録音を違法に取得するのを防ぎます。",
+            "blockGeoTracking": "ジオトラッキングをブロック",
+            "blockGeoTrackingDesctiption": "Webサイトがあなたの現在の地理的位置を特定できないようにします。",
+            "stopNetworkPredictions": "ネットワーク予測を停止",
+            "stopNetworkPredictionsDescrption": "Googleは以前にアクセスしたWebサイトを記録するため、Googleがネットワーク予測を介してあなたの活動を追跡できないようにします。",
+            "stopSafeBrowsing": "セーフブラウジングの追跡を停止",
+            "stopSafeBrowsingDescrption": "Googleは、セーフブラウジング機能を介して安全でないWebサイトへのアクセスを追跡します。完全なプライバシーを確保するには、この機能をオフにしてください。",
+            "privateCreditCard": "個人のクレジットカード",
+            "privateCreditCardDescription": "ブラウザの自動入力機能を停止することにより、銀行の詳細が悪意のある第三者に漏洩するのを防ぎます。",
+            "privateAccess": "個人の住所",
+            "privateAccessDescription": "ブラウザのアドレス自動入力設定を無効にして、第三者があなたの地理情報にアクセスするのを防ぎます。",
+            "blockCookieColletion": "Cookieの収集をブロック",
+            "blockCookieCollection": "Webサイトがあなたの同意なしにCookieを収集できないようにします。",
+            "blockCookiePopUps": "Cookieのポップアップをブロック",
+            "blockCookiePopUpsDescription": "「Cookieを使用します」という通知を表示する、Webサイトのポップアップをブロックします。",
+            "fingerPrintProtection": "フィンガープリント機能に対する保護",
+            "fingerPrintProtectionDescription": "一般的な情報を提供することで、ブラウザフィンガープリント機能に対する保護を提供します。"
+        },
+        "whitelist": {
+            "title": "ホワイトリスト",
+            "state_title_on": "ホワイトリストはオンです",
+            "state_title_off": "ホワイトリストはオフです",
+            "state_description": "特定のWebサイトを閲覧するときにZenMateに接続したくない場合は、そのWebサイトをホワイトリストに追加します。そうすれば、そのWebサイトにアクセスするとき、VPNが自動的にオフになります。",
+            "website_url": "WebサイトのURL",
+            "websites_added": "すでに追加されたWebサイト",
+            "error_existing": "このWebサイトはすでにスマートロケーションに追加されています。スマートロケーションリストとホワイトリストの両方に同じWebサイトを登録することはできません。続行するには、どちらかからそのWebサイトを削除してください。"
+        },
+        "stealth-connection": {
+            "title": "ステルス接続",
+            "state_title_on": "ステルス接続はオンです",
+            "state_title_off": "ステルス接続はオフです",
+            "ask_every_time": "毎回尋ねる",
+            "state_description": "<b>ステルス接続</b>は、Cookieを削除し、閲覧履歴やキャッシュを消去する機能です。VPNを切断すると、<b>ステルス接続</b>によって、ZenMateに接続した最初の時点からのオンライン閲覧活動のトレースがすべて消去されます。",
+            "website_url": "WebサイトのURL",
+            "websites_added": "すでに追加されたWebサイト",
+            "error_existing": "このWebサイトはすでにスマートロケーションに追加されています。スマートロケーションリストとホワイトリストの両方に同じWebサイトを登録することはできません。続行するには、どちらかからそのWebサイトを削除してください。"
+        }
+    },
+    "marketing_banner": {
+        "home1": "お持ちのデバイスをすべて保護 – ダウンロード：",
+        "home2": "および",
+        "home3": "または",
+        "windows_app": "Windowsアプリ",
+        "ios_app": "iOSアプリ",
+        "android_app": "Androidアプリ",
+        "macos_app": "macOSアプリ",
+        "download_cta": "今すぐダウンロード",
+        "upgrade_cta": "今すぐアップグレード"
+    },
+    "inactive_banner": {
+        "smart_location": {
+            "text": "お気に入りのWebサイトにアクセスするとき、ロケーションを自動的に切り替えることで、ZenMateがそれらのWebサイトに接続する方法をカスタマイズできます。",
+            "cta": "今すぐブロック解除"
+        },
+        "whitelist": {
+            "text": "特定のWebサイトを閲覧するときにZenMateに接続したくない場合は、そのWebサイトをホワイトリストに追加します。そうすれば、そのWebサイトにアクセスするとき、VPNが自動的にオフになります。",
+            "cta": "今すぐブロック解除"
+        },
+        "streaming": {
+            "text": "自国で見ることのできない映画やテレビ番組を含め、見たいコンテンツをすべて一気見できます。",
+            "cta": "ストリーミングのブロックを解除"
+        },
+        "stealth-connection": {
+            "text": "ZenMateのステルス接続機能を使うと、あなたの閲覧セッションのトレースをすべて自動的に消去できます。これはZenMate ProおよびUltimateの機能です。",
+            "cta": "今すぐブロック解除"
+        }
+    },
+    "intro": {
+        "intro-heading": "<b>ZenMateへようこそ</b>",
+        "intro-default-heading": "<b>アカウントを作成&検証</b>して<br />以下の特典をお楽しみください：",
+        "already-account": "すでにアカウントをお持ちですか？",
+        "login-here": "こちらからログインしてください！",
+        "signup-now": "今すぐ登録！",
+        "seven-days": "7日間のお試し期間"
+    },
+    "campaign": {
+        "heading": "<b>ZenMate Ultimate</b><br>をお楽しみください",
+        "features": {
+            "0": "74ヶ国を超える国に3600台以上のサーバー",
+            "1": "Webサイト＆制限のかけられたアプリのブロック解除",
+            "2": "ストリーミングの地域的制限を回避",
+            "3": "無制限数のデバイスを保護"
+        },
+        "cta": "ZenMate Ultimateを購入",
+        "subCta": "期間限定たったの$2.22／月",
+        "later": "後で"
+    },
+    "queue": {
+        "heading": "残念ながら、ただ今弊社のサーバー<br>はすべて使用中です",
+        "heading2": "混雑を避けるため、しばらくすれば<br>接続できるようになります",
+        "no_waiting": "待たずに接続したいですか？",
+        "upgrade": "<b>ZenMate Pro</b>にアップグレードすれば、常に<br>プレミアムサーバーをご利用いただけるようになります",
+        "upgrade_now": "今すぐアップグレード"
+    },
+    "campaign_trial": {
+        "heading": "<b>Ultimateにアップグレード</b>して<br>以下の特典をお楽しみください",
+        "cta": "今すぐUltimateにアップグレード"
+    },
+    "popup_validation": {
+        "heading": "自分の足跡をすべて消去",
+        "paragraph": "<b>ステルス接続</b>機能がオンになりました。このセッションから自分のすべての足跡を完全に消去したいですか？<small> <br />（Cookieを削除し、閲覧履歴＆キャッシュを消去します）</small>",
+        "no_ask": "今後このメッセージを表示せずに、設定を記憶する",
+        "yes": "はい",
+        "no": "いいえ"
+    },
+    "rateus": {
+        "heading": "弊社の拡張機能はいかがでしたか？",
+        "description": "星をクリックしてお客様のフィードバックを共有してください"
+    },
+    "proxy-warning": {
+        "heading": "プロキシ警告！",
+        "description": "別のブラウザ拡張機能があなたのプロキシ設定を制御しているため、<b>ZenMate</b>は機能しません。競合している拡張機能を無効にしてください。",
+        "cta": "拡張機能を管理"
+    },
+    "onboarding": {
+        "page1_menu": "メニュー",
+        "page1_future": "すばらしい機能",
+        "page1_connect": "接続ボタン",
+        "page2_click": "ロケーションを変更するにはここをクリック",
+        "page3_congrats": "成功！",
+        "page3_connected": "接続しました!",
+        "page3_click": "ボタンがパルス状になっています。つまり、ZenMate VPNを思う存分にお楽しみいただけます。",
+        "page4_select": "サーバーロケーションを選択",
+        "page4_dedicated": "専用のストリーミングサーバー",
+        "page4_lcoation": "ロケーションをお気に入りに追加。",
+        "close": "閉じる",
+        "footer-title":"Click anywhere to continue"
+    },
+    "streaming_optimizations": {
+        "US_OPT": "Netflix に最適化",
+        "DE_OPT": "Netflix、YouTube、ZDF、Zattoo",
+        "IT_OPT": "Amazonプライム用に最適化"
+    },
+    "error_screen": {
+        "title": "残念ながら、お客様の地域ではこのサービスをご利用いただけません",
+        "content": "お住まいの地域でZenMateを利用したい場合は、<span>カスタマーサポートリクエスト</span>に必要事項を記入して、その旨を弊社にお知らせください。"
+    },
+    "notifications": {
+        "logout": "あなたは自動的にログアウトされました！"
+    },
+    "anonymous_consent": {
+        "title": "プライバシー",
+        "content": "ZenMate無料VPNの使用に関するお客様のデータを匿名で収集してもよろしいですか：",
+        "content2": "弊社は、すべてのサーバーが機能するように、また、サーバーの問題をリアルタイムで解決してより楽しいエクスペリエンスをお届けできるように、国ごとのサーバー負荷や失敗した接続に関するデータを収集します。",
+        "content3": "匿名データの収集を許可しなかった場合は、サーバーが機能しなくなったときに、その問題の状況を把握するのが難しくなります。",
+        "content4": "弊社が収集する匿名データとその用途についての詳細は、こちらをご覧ください：",
+        "private_policy": "プライバシーポリシー。",
+        "button1": "はい、プライバシーポリシーに従って匿名データを収集してもかまいません",
+        "button2": "いいえ、匿名データを収集しないでください"
+    }
+}

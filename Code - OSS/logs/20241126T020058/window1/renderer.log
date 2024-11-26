@@ -1,0 +1,4 @@
+2024-11-26 02:00:59.303 [info] Started local extension host with pid 4217.
+2024-11-26 02:01:01.935 [info] [perf] Render performance baseline is 18ms
+2024-11-26 02:01:12.816 [error] [text file model] handleSaveError(8) - exit - resulted in a save error: Error: Unable to write file '/etc/ly/config.ini' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/ly/config.ini') file:///etc/ly/config.ini
+2024-11-26 02:01:25.276 [error] [text file model] handleSaveError(8) - exit - resulted in a save error: Error: Unable to write file '/etc/ly/config.ini' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/ly/config.ini') file:///etc/ly/config.ini

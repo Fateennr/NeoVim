@@ -1,0 +1,6 @@
+2024/11/24-12:44:53.511 2c49 Creating DB /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb since it was missing.
+2024/11/24-12:44:53.514 2c49 Reusing MANIFEST /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/24-12:44:57.758 2c48 Level-0 table #5: started
+2024/11/24-12:44:57.759 2c48 Level-0 table #5: 3517 bytes OK
+2024/11/24-12:44:57.761 2c48 Delete type=0 #3
+2024/11/24-12:44:57.761 2c48 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

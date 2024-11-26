@@ -1,0 +1,22 @@
+{
+   "browser_action": {
+      "default_popup": "./html/popup.html"
+   },
+   "content_scripts": [ {
+      "css": [ "css/style.css" ],
+      "js": [ "js/lib/jquery-3.5.1.min.js", "js/lib/Chart.min.js", "js/classes/section.js", "js/classes/sectionInfo.js", "js/classes/problemsList.js", "js/classes/sectionToggleButton.js", "js/classes/buttonsSection.js", "js/classes/header.js", "js/classes/dataList.js", "js/classes/submissionsChart.js", "js/classes/dataElement.js", "js/Util/dateHandlers.js", "js/Util/dataPopulation.js", "js/Util/apiDataHandlers.js", "js/addStaticsTabButton.js", "js/addLoadingMessage.js", "js/loadStaticsTab.js", "js/fetchAPIData.js", "js/index.js" ],
+      "matches": [ "https://codeforces.com/profile/*" ]
+   } ],
+   "description": "Track your practice progress on Codeforces.",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoHjsI1T7I+RVl5/1rP+iEq+gkt84yycIDCg7acwOA2+RW8L+BoZjaG9uNsaz0YqWhi0kMlgjgrIZDZqiCrLd+o3QoOQ36loRjwc+FBF4bxS1L3TOdFb+zb46UK6PRsxG/Zlk+EZXLu4FEkS573+E7Tph7NpWFaioYMgkm1TEvUn8LlpU3C5QmOYFHMdYrATjsrXcvzIKXe0O+75mVStL0dnEiBS3Nvbe3P6JNBNaGecKbjuSdS/h+zZ+cPKGKIc1zcVl/JqJz2IJANtDhhPio/6ArchF4JHgNEvPS6r6te6/GfSmyOjnJ314d66e0/Jgbx5h1db/2KFD5szw4qMTXwIDAQAB",
+   "manifest_version": 2,
+   "name": "Codeforces Practice Tracker",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.0"
+}

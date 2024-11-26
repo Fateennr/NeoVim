@@ -1,0 +1,42 @@
+2024/11/24-22:04:18.452 373 Reusing MANIFEST /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/24-22:04:18.452 373 Recovering log #26
+2024/11/24-22:04:18.463 373 Reusing old log /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000026.log 
+2024/11/24-22:04:20.668 374 Level-0 table #31: started
+2024/11/24-22:04:20.673 374 Level-0 table #31: 659674 bytes OK
+2024/11/24-22:04:20.674 374 Delete type=0 #26
+2024/11/24-22:04:20.674 372 Manual compaction at level-0 from '\x00\x13\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/24-22:04:32.790 373 Compacting 1@1 + 1@2 files
+2024/11/24-22:04:32.794 373 Generated table #32@1: 238 keys, 42463 bytes
+2024/11/24-22:04:32.794 373 Compacted 1@1 + 1@2 files => 42463 bytes
+2024/11/24-22:04:32.794 373 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/24-22:04:32.795 373 Delete type=2 #28
+2024/11/24-22:04:32.795 373 Delete type=2 #31
+2024/11/24-22:31:19.563 374 Level-0 table #34: started
+2024/11/24-22:31:19.580 374 Level-0 table #34: 1324429 bytes OK
+2024/11/24-22:31:19.582 374 Delete type=0 #30
+2024/11/24-22:31:19.583 372 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/24-22:31:24.103 374 Compacting 1@1 + 1@2 files
+2024/11/24-22:31:24.112 374 Generated table #35@1: 239 keys, 44269 bytes
+2024/11/24-22:31:24.112 374 Compacted 1@1 + 1@2 files => 44269 bytes
+2024/11/24-22:31:24.113 374 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/24-22:31:24.113 374 Delete type=2 #34
+2024/11/24-22:31:24.113 374 Delete type=2 #32
+2024/11/24-22:31:24.161 381 Level-0 table #37: started
+2024/11/24-22:31:24.163 381 Level-0 table #37: 35121 bytes OK
+2024/11/24-22:31:24.164 381 Delete type=0 #33
+2024/11/24-22:31:24.164 373 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/24-22:31:28.627 372 Compacting 1@1 + 1@2 files
+2024/11/24-22:31:28.635 372 Generated table #38@1: 278 keys, 68886 bytes
+2024/11/24-22:31:28.635 372 Compacted 1@1 + 1@2 files => 68886 bytes
+2024/11/24-22:31:28.636 372 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/24-22:31:28.636 372 Delete type=2 #37
+2024/11/24-22:31:28.636 372 Delete type=2 #35
+2024/11/24-22:47:44.936 372 Level-0 table #40: started
+2024/11/24-22:47:44.959 372 Level-0 table #40: 1770606 bytes OK
+2024/11/24-22:47:44.961 372 Delete type=0 #36
+2024/11/24-22:47:54.025 373 Compacting 1@1 + 1@2 files
+2024/11/24-22:47:54.037 373 Generated table #41@1: 224 keys, 38943 bytes
+2024/11/24-22:47:54.037 373 Compacted 1@1 + 1@2 files => 38943 bytes
+2024/11/24-22:47:54.038 373 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/24-22:47:54.038 373 Delete type=2 #40
+2024/11/24-22:47:54.038 373 Delete type=2 #38

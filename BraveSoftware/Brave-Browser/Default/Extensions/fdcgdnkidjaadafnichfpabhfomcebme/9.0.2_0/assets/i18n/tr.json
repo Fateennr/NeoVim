@@ -1,0 +1,243 @@
+{
+    "login": {
+        "title": "Giriş Yap",
+        "welcome": "Hoş geldiniz",
+        "email": "Kullanıcı Adı/E-posta",
+        "password": "Parola",
+        "forgot_password": "Parolanızı mı unuttunuz?",
+        "account_question": "Bir Hesabınız yok mu?",
+        "signup_here": "Buradan kaydolun!",
+        "error": "Geçersiz kullanıcı adı ve/veya parola",
+        "errors": {
+            "invalid-credentials": "Geçersiz kullanıcı adı ve/veya parola",
+            "rate-limit": "Çok fazla deneme, lütfen daha sonra tekrar deneyin"
+        },
+        "cta": "Giriş Yap"
+    },
+    "recover": {
+        "title": "Parolanızı mı unuttunuz",
+        "message": "Giriş yapmak için kullandığınız e-posta adresini girin. Parolanızı sıfırlamak için size e-posta göndereceğiz.",
+        "error": "Lütfen geçerli bir e-posta adresi girin",
+        "email": "E-posta",
+        "back_to_login": "Girişe geri dön",
+        "cta": "Sıfırla"
+    },
+    "recover_success": {
+        "title": "E-postanıza göz atın",
+        "description": "E-posta adresi ZenMate VPN’e kayıtlıysa, parola sıfırlama bağlantısı oraya gönderilecektir."
+    },
+    "home": {
+        "protection_disabled": "Koruma devre dışı",
+        "state": "ZenMate şu anda kapalı",
+        "last_location": "En son kullanılan konum",
+        "best_location": "En iyi konum",
+        "connected_to": "Şuraya bağlı:",
+        "smart_location": "<b>Akıllı Konum</b> şuraya bağlı: <b>{{country}}</b>"
+    },
+    "debug": {
+        "copy_debug": "Günlükleri kopyala",
+        "clear_debug": "Günlükleri sil",
+        "no_logs": "Şu anda günlük yok"
+    },
+    "menu": {
+        "title": "Menü",
+        "account_details": "Hesap ayrıntıları",
+        "username": "Kullanıcı adı",
+        "end_date": "Bitiş tarihi",
+        "trial_end_date": "Deneme şu tarihte bitecek:",
+        "manage_account": "Hesabı Yönet",
+        "logout": "Çıkış Yap",
+        "login": "Giriş Yap",
+        "features": "Özellikler",
+        "language": "Dil",
+        "support": "Destek",
+        "upgrade": "Ultimate'a Yükseltin",
+        "upgrade_pro": "Pro’ya Yükseltin",
+        "trial_start": "Şimdi Denemeye Başla",
+        "tour": "Hızlı Tur",
+        "debug": "Hata ayıkla",
+        "debug_mode": "Hata Ayıklama Modu",
+        "view_debug": "Hata Ayıklama Günlüğünü Görüntüle",
+        "dark_theme": "Dark Theme"
+    },
+    "servers": {
+        "title": "Konum Değiştir",
+        "all_countries": "Tüm ülkeler",
+        "streaming": "Çevrimiçi yürütme hizmeti",
+        "favorites": "Sık Kullanım",
+        "unblock_more": "Pro ile daha fazla sunucunun kilidini açın"
+    },
+    "features": {
+        "title": "Özellikler",
+        "smart_location": {
+            "title": "Akıllı Konum",
+            "state_title_on": "Akıllı Konum AÇIK",
+            "state_title_off": "Akıllı Konum KAPALI",
+            "state_description": "Ziyaretiniz sırasında otomatik olarak konum değiştirerek favori web sitelerinize nasıl bağlanacağınızı kişiselleştirin!",
+            "website_url": "Web sitesi URL’si",
+            "change_country": "Ülke değiştir",
+            "websites_added": "Web siteleri zaten eklendi",
+            "error_existing": "Bu web sitesini zaten Beyaz Listeye eklediniz. Aynı web sitesi hem Akıllı Konum listesinde hem de Beyaz Listede olamaz. Devam etmek için birinden kaldırın."
+        },
+        "privacy": {
+            "title": "Gizlilik",
+            "tracking_title": "İzleme Engelleyici",
+            "tracking_description": "Üçüncü taraf hizmetlerinin çevrimiçi aktivitenizi izlemesini engelleyerek gizliliğinizi koruyun.",
+            "malware_title": "Kötü Niyetli Yazılım Engelleyici",
+            "malware_description": "Kötü niyetli siteleri ve kod parçacıkları tarayıcınıza ulaşamadan onları engellemeyi etkinleştirin.",
+            "webrtc_title": "WebRTC Protect",
+            "webrtc_description": "WebRTC Protect, IP adresinizin asla çevrimiçi olarak ifşa edilmemesini sağlayacaktır.",
+            "noSpyCamera": "Kamera Casusluğu Yok",
+            "noSpyCameraDescription": "Prohibit websites from accessing your webcam via your browser and filming you without knowledge or consent.",
+            "noSpyAudio": "Ses Casusluğu Yok",
+            "noSpyAudioDescription": "Web sitelerinin bilgisayar mikrofonunuz yoluyla yasa dışı şekilde ses kayıtları almasını engelleyin.",
+            "blockGeoTracking": "Coğrafi Takibi Engelleyin",
+            "blockGeoTrackingDesctiption": "Web sitelerinin geçerli coğrafi konumunuzu belirlemesini durdurun.",
+            "stopNetworkPredictions": "Ağ Tahminlerini Durdurun",
+            "stopNetworkPredictionsDescrption": "Google önceden ziyaret ettiğiniz web sitelerinin kaydını aldığından Google’ın Ağ Tahminleri yoluyla etkinliğinizi takip etmesini durdurun.",
+            "stopSafeBrowsing": "SafeBrowsing Takibini Durdurun",
+            "stopSafeBrowsingDescrption": "Google, SafeBrowsing Özelliği yoluyla güvenli olmayan web sitelerine ziyaretlerinizi takip eder. Tam gizlilikten emin olmak için bu özelliği kapatın.",
+            "privateCreditCard": "Gizli Kredi Kartı",
+            "privateCreditCardDescription": "Tarayıcınızın otomatik doldurma özelliğini durdurarak banka bilgilerinizin kötü niyetli kişilere sızmasını önleyin.",
+            "privateAccess": "Gizli Adres",
+            "privateAccessDescription": "Tarayıcınızın adres otomatik doldurma ayarlarını devre dışı bırakarak üçüncü kişilerin coğrafi bilgilerinize erişmesini önleyin.",
+            "blockCookieColletion": "Çerez Toplamayı Engelleyin",
+            "blockCookieCollection": "Web sitelerinin izniniz olmadan çerez toplamasını engelleyin.",
+            "blockCookiePopUps": "Çerez Açılır Pencerelerini Engelleyin",
+            "blockCookiePopUpsDescription": "“Çerez kullanıyoruz” bildirimlerini içeren web sitesi açılır pencerelerini engelleyin.",
+            "fingerPrintProtection": "Parmak izi koruması",
+            "fingerPrintProtectionDescription": "Genel bilgiler vererek tarayıcı parmak izi takibine karşı koruma sağlayın."
+        },
+        "whitelist": {
+            "title": "Beyaz liste",
+            "state_title_on": "Beyaz liste AÇIK",
+            "state_title_off": "Beyaz liste KAPALI",
+            "state_description": "Belirli bir web sitesine göz atarken asla ZenMate'e bağlanmak istemiyor musunuz? Siteyi beyaz listeye eklemeniz yeterlidir, böylece favori web sitenizi ziyaret ettiğinizde VPN otomatik olarak kapanacaktır.",
+            "website_url": "Web sitesi URL’si",
+            "websites_added": "Web siteleri zaten eklendi",
+            "error_existing": "Bu web sitesini zaten Akıllı Konum listesine eklediniz. Aynı web sitesi hem Akıllı Konum listesinde hem de Beyaz Listede olamaz. Devam etmek için birinden kaldırın."
+        },
+        "stealth-connection": {
+            "title": "Görünmez Bağlantı",
+            "state_title_on": "Görünmez Bağlantı AÇIK",
+            "state_title_off": "Görünmez Bağlantı KAPALI",
+            "ask_every_time": "Her seferinde sor",
+            "state_description": "<b>Görünmez Bağlantı</b>, çerezlerinizi kaldırır, tarayıcı geçmişinizi ve önbelleği temizler. VPN bağlantısını kestiğinizde, <b>Görünmez Bağlantı</b>, ZenMate’e ilk bağlandığınız andan itibaren çevrimiçi tarayıcı etkinliğinizin tüm izlerini siler.",
+            "website_url": "Web sitesi URL’si",
+            "websites_added": "Web siteleri zaten eklendi",
+            "error_existing": "Bu web sitesini zaten Akıllı Konum listesine eklediniz. Aynı web sitesi hem Akıllı Konum listesinde hem de Beyaz Listede olamaz. Devam etmek için birinden kaldırın."
+        }
+    },
+    "marketing_banner": {
+        "home1": "Tüm cihazlarınızı koruyun - İndirin:",
+        "home2": "ve",
+        "home3": "veya",
+        "windows_app": "Windows uygulamamız",
+        "ios_app": "iOS uygulamamız",
+        "android_app": "Android uygulamamız",
+        "macos_app": "macOS uygulamamız",
+        "download_cta": "Şimdi indir",
+        "upgrade_cta": "Şimdi yükseltin"
+    },
+    "inactive_banner": {
+        "smart_location": {
+            "text": "Ziyaretiniz sırasında otomatik olarak konum değiştirerek favori web sitelerinize nasıl bağlanacağınızı kişiselleştirin.",
+            "cta": "Engeli Şimdi Kaldır"
+        },
+        "whitelist": {
+            "text": "Belirli bir web sitesine göz atarken asla ZenMate'e bağlanmak istemiyor musunuz? Siteyi beyaz listeye eklemeniz yeterlidir, böylece favori web sitenizi ziyaret ettiğinizde VPN otomatik olarak kapanacaktır.",
+            "cta": "Engeli Şimdi Kaldır"
+        },
+        "streaming": {
+            "text": "Ülkenizde mevcut olmasalar bile tüm filmleri ve televizyon şovlarını peş peşe izleyin.",
+            "cta": "Çevrimiçi Yürütme Hizmetlerinin Kilidini Aç"
+        },
+        "stealth-connection": {
+            "text": "ZenMate Pro ve Ultimate kullanıcılarına açık olan ZenMate Görünmez Bağlantı özelliğiyle tarayıcı oturumunuzun her izini otomatik olarak silin.",
+            "cta": "Engeli Şimdi Kaldır"
+        }
+    },
+    "intro": {
+        "intro-heading": "<b>ZenMate’e hoş geldiniz</b>",
+        "intro-default-heading": "Deneyimlemek için <br /><b>hesabınızı oluşturun ve doğrulayın</b>:",
+        "already-account": "Zaten bir hesabınız var mı?",
+        "login-here": "Buradan giriş yapın!",
+        "signup-now": "Şimdi Kaydolun!",
+        "seven-days": "7 gün ücretsiz deneme"
+    },
+    "campaign": {
+        "heading": "<b>ZenMate Ultimate</b> <br>ile keşfedin",
+        "features": {
+            "0": "74+ ülkeden 3600+ sunucu",
+            "1": "Web sitelerinin ve kısıtlı uygulamaların engelini kaldırın.",
+            "2": "Çevrimiçi yürütme coğrafi sınırlamalarını aşın",
+            "3": "Sınırsız cihaz için koruma"
+        },
+        "cta": "ZenMate Ultimate alın",
+        "subCta": "Sınırlı süreliğine sadece 2.22$/ay",
+        "later": "Belki daha sonra"
+    },
+    "queue": {
+        "heading": "Maalesef, şu anda <br> tüm sunucularımız meşgul",
+        "heading2": "Sıkışıklıktan kaçınmak için <br> en kısa zamanda bağlanabileceksiniz",
+        "no_waiting": "Beklemek istemiyor musunuz?",
+        "upgrade": "<b>ZenMate Pro’ya</b> yükseltin ve premium sunucular<br> her zaman elinizin altında olsun",
+        "upgrade_now": "Şimdi Yükseltin"
+    },
+    "campaign_trial": {
+        "heading": "<b>Ultimate'e Yükseltin</b><br> ve deneyimlemeye devam edin",
+        "cta": "Ultimate'e Şimdi Yükselt"
+    },
+    "popup_validation": {
+        "heading": "Tüm adımlarımı sil",
+        "paragraph": "<b>Görünmez Bağlantı</b> özelliği açık. Bu oturumdaki tüm izlerinizi tamamen silmek istediğinizden emin misiniz? <small> <br />(çerezlerinizi kaldırır, tarayıcı geçmişinizi ve önbelleği temizler)</small>",
+        "no_ask": "Tekrar sorma ve ayarlarımı hatırla",
+        "yes": "EVET",
+        "no": "HAYIR"
+    },
+    "rateus": {
+        "heading": "Uzantımız hoşunuza gitti mi?",
+        "description": "Geri bildiriminizi paylaşmak için yıldızlara tıklayın"
+    },
+    "proxy-warning": {
+        "heading": "Proxy uyarısı!",
+        "description": "Başka bir tarayızı uzantısı proxy ayarlarınızı kontrol ediyor ve <b>ZenMate’in</b> çalışmasını engelliyor. Lütfen çakışan uzantıları devre dışı bırakın.",
+        "cta": "Uzantıları Yönet"
+    },
+    "onboarding": {
+        "page1_menu": "Menü",
+        "page1_future": "Harika Özellikler",
+        "page1_connect": "Bağlan Düğmesi",
+        "page2_click": "Konumu değiştirmek için buraya tıklayın",
+        "page3_congrats": "Tebrikler!",
+        "page3_connected": "Bağlısınız!",
+        "page3_click": "Düğme titreşiyor, yani ZenMate VPN’den tamamen yararlanabilirsiniz.",
+        "page4_select": "Sunucu konumunuzu seçin",
+        "page4_dedicated": "Özel yayın izleme sunucuları",
+        "page4_lcoation": "Konumu favorilerinize ekleyin.",
+        "close": "Kapat",
+        "footer-title":"Click anywhere to continue"
+    },
+    "streaming_optimizations": {
+        "US_OPT": "Netflix için optimize edilmiştir",
+        "DE_OPT": "Netflix, YouTube, ZDF, Zattoo",
+        "IT_OPT": "Amazon Prime için optimize edilmiştir"
+    },
+    "error_screen": {
+        "title": "Maalesef bu hizmet bölgenizde kullanılamıyor",
+        "content": "<span>Müşteri destek isteği</span> formunu doldurarak ZenMate’in bölgenizde mevcut olmasını istediğinizi bize bildirin"
+    },
+    "notifications": {
+        "logout": "Otomatik olarak çıkış yaptınız!"
+    },
+    "anonymous_consent": {
+        "title": "Gizlilik",
+        "content": "ZenMate Ücretsiz VPN kullanımınız hakkında aşağıdaki anonim verileri toplayabilir miyiz:",
+        "content2": "Tüm sunucuların çalıştığından emin olmak ve daha keyifli bir deneyim sunmak adına bunları gerçek zamanlı olarak çözebilmek için ülke başına sunucu yükünü ve başarısız bağlantıları topluyoruz.",
+        "content3": "Bir sunucu çalışmadığında, anonim veri toplamamıza izin vermemeyi seçerseniz, sorunu bilmemiz bizim için daha zor olacaktır.",
+        "content4": "Topladığımız anonim veriler ve bunlarla ne yaptığımız hakkında kapsamlı ayrıntılar burada bulunabilir: ",
+        "private_policy": "Gizlilik Politikası.",
+        "button1": "Evet, gizlilik politikanıza uygun olarak anonim veriler toplayabilirsiniz.",
+        "button2": "Hayır, anonim veri toplamayın"
+    }
+}

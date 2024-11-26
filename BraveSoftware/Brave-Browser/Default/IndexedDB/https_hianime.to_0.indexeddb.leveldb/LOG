@@ -1,0 +1,6 @@
+2024/11/23-09:50:37.952 32ba Creating DB /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_hianime.to_0.indexeddb.leveldb since it was missing.
+2024/11/23-09:50:37.961 32ba Reusing MANIFEST /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_hianime.to_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/23-09:51:04.025 32bb Level-0 table #5: started
+2024/11/23-09:51:04.038 32bb Level-0 table #5: 949589 bytes OK
+2024/11/23-09:51:04.040 32bb Delete type=0 #3
+2024/11/23-09:51:04.041 32bb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

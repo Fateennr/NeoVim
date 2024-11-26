@@ -1,0 +1,7 @@
+2024/11/26-08:57:03.797 4e3 Reusing MANIFEST /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/26-08:57:03.797 4e3 Recovering log #101
+2024/11/26-08:57:03.837 4e3 Reusing old log /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000101.log 
+2024/11/26-08:57:04.082 4e2 Level-0 table #107: started
+2024/11/26-08:57:04.098 4e2 Level-0 table #107: 1033787 bytes OK
+2024/11/26-08:57:04.099 4e2 Delete type=0 #101
+2024/11/26-08:57:04.100 4e2 Manual compaction at level-0 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)

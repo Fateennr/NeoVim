@@ -1,0 +1,5 @@
+2024-11-26 02:13:59.215 [info] Started local extension host with pid 2523.
+2024-11-26 02:14:00.243 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/etc/ly/config.ini' (Error: File Modified Since) file:///etc/ly/config.ini
+2024-11-26 02:14:02.011 [info] [perf] Render performance baseline is 18ms
+2024-11-26 02:14:19.204 [info] Started local extension host with pid 2608.
+2024-11-26 02:14:23.956 [info] [perf] Render performance baseline is 24ms

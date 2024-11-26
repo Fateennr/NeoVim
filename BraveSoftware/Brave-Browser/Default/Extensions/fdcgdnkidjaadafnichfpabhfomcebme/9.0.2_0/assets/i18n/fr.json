@@ -1,0 +1,243 @@
+{
+    "login": {
+        "title": "Se connecter",
+        "welcome": "Bienvenue",
+        "email": "Nom d’utilisateur/E-mail",
+        "password": "Mot de passe",
+        "forgot_password": "Mot de passe oublié ?",
+        "account_question": "Vous n’avez pas de compte ?",
+        "signup_here": "Inscrivez-vous ici !",
+        "error": "Identifiant et/ou mot de passe incorrect(s)",
+        "errors": {
+            "invalid-credentials": "Nom d’utilisateur et/ou mot de passe incorrect(s)",
+            "rate-limit": "Trop de tentatives, veuillez réessayer ultérieurement"
+        },
+        "cta": "Connexion"
+    },
+    "recover": {
+        "title": "Mot de passe oublié",
+        "message": "Entrez l’adresse mail utilisée lors de votre inscription. Un courriel vous sera transmis avec l’ensemble des instructions relatives à la réinitialisation de votre mot de passe.",
+        "error": "Veuillez saisir une adresse mail correcte",
+        "email": "E-mail",
+        "back_to_login": "Retour à la connexion",
+        "cta": "Réinitialiser"
+    },
+    "recover_success": {
+        "title": "Vérifiez votre messagerie",
+        "description": "Si votre adresse mail est associée à ZenMate VPN, vous devriez recevoir un lien afin de réinitialiser votre mot de passe."
+    },
+    "home": {
+        "protection_disabled": "Protection désactivée",
+        "state": "ZenMate est actuellement désactivé",
+        "last_location": "Dernier emplacement utilisé",
+        "best_location": "Meilleur emplacement",
+        "connected_to": "Connecté à",
+        "smart_location": "La fonctionnalité <b>Smart Location</b> est connectée au pays suivant : <b>{{country}}</b>"
+    },
+    "debug": {
+        "copy_debug": "Copier les journaux",
+        "clear_debug": "Effacer les journaux",
+        "no_logs": "Actuellement aucun journal"
+    },
+    "menu": {
+        "title": "Menu",
+        "account_details": "Détails du compte",
+        "username": "Nom d’utilisateur ",
+        "end_date": "Date de fin",
+        "trial_end_date": "Fin de l’essai à",
+        "manage_account": "Gérer le compte",
+        "logout": "Déconnexion",
+        "login": "Connexion",
+        "features": "Fonctionnalités",
+        "language": "Langue",
+        "support": "Support",
+        "upgrade": "Passer à la version Ultimate",
+        "upgrade_pro": "Passer à la version Pro",
+        "trial_start": "Lancer la version d’essai",
+        "tour": "Petit aperçu",
+        "debug": "Debug",
+        "debug_mode": "Mode de débogage",
+        "view_debug": "Afficher le journal de débogage",
+        "dark_theme": "Dark Theme"
+    },
+    "servers": {
+        "title": "Changer d’emplacement",
+        "all_countries": "Tous les pays",
+        "streaming": "Services de streaming",
+        "favorites": "Favoris",
+        "unblock_more": "Débloquez plus de serveurs avec la version Pro"
+    },
+    "features": {
+        "title": "Fonctionnalités",
+        "smart_location": {
+            "title": "Smart Location",
+            "state_title_on": "Smart Location est activé",
+            "state_title_off": "Smart Location est désactivé",
+            "state_description": "Personnalisez la manière dont ZenMate se connecte à vos sites favoris en changeant automatiquement d’emplacement selon ce que vous visitez !",
+            "website_url": "URL du site",
+            "change_country": "Changer de pays",
+            "websites_added": "Sites déjà ajoutés",
+            "error_existing": "Vous avez déjà ajouté ce site à votre Whitelist. Un même site ne peut être à la fois sur « Smart Location » et sur votre Whitelist. Retirez-le de l’un d’entre eux pour continuer."
+        },
+        "privacy": {
+            "title": "Confidentialité",
+            "tracking_title": "Anti-Tracking",
+            "tracking_description": "Préservez votre confidentialité en empêchant des tiers de surveiller vos activités en ligne.",
+            "malware_title": "Anti-Malware",
+            "malware_description": "Activez le blocage des sites malveillants et des snippets avant qu’ils n’infestent votre navigateur.",
+            "webrtc_title": "WebRTC Protect",
+            "webrtc_description": "WebRTC Protect s’assure que votre adresse IP ne soit jamais exposée en ligne.",
+            "noSpyCamera": "Pas de caméra espion",
+            "noSpyCameraDescription": "Empêchez les sites d’accéder à votre webcam via votre navigateur et de vous filmer à votre insu et sans votre consentement.",
+            "noSpyAudio": "Pas d'audio espion",
+            "noSpyAudioDescription": "Empêchez les sites d'obtenir illégalement vos enregistrements vocaux via le microphone de votre ordinateur.",
+            "blockGeoTracking": "Bloquer le Geo-Tracking",
+            "blockGeoTrackingDesctiption": "Empêcher les sites de déterminer votre emplacement géographique actuel.",
+            "stopNetworkPredictions": "Empêcher les prédictions réseau",
+            "stopNetworkPredictionsDescrption": "Empêcher Google de suivre vos activités via la prédiction réseau lorsque, sachant que Google enregistre vos derniers sites visités.",
+            "stopSafeBrowsing": "Empêcher le suivi SafeBrowsing",
+            "stopSafeBrowsingDescrption": "Google contrôle vos accès aux sites non sécurisés via leur option SafeBrowsing. Pour garantir votre confidentialité, veuillez la désactiver.",
+            "privateCreditCard": "Carte bancaire privée",
+            "privateCreditCardDescription": "Empêchez la fuite de vos données bancaires vers des tiers malveillants en stoppant la fonction de remplissage automatique sur votre navigateur.",
+            "privateAccess": "Adresse privée",
+            "privateAccessDescription": "Empêchez les tiers d’accéder à vos informations géographiques en désactivant la fonction de remplissage automatique des champs d’adresse de votre navigateur.",
+            "blockCookieColletion": "Empêcher la collecte de cookies",
+            "blockCookieCollection": "Empêchez les sites de collecter des cookies sans votre consentement.",
+            "blockCookiePopUps": "Bloquez les fenêtres popups des cookies",
+            "blockCookiePopUpsDescription": "Bloquez les fenêtres popups des sites web contenant la mention « nous utilisons des cookies ».",
+            "fingerPrintProtection": "Protection contre les empreintes digitales",
+            "fingerPrintProtectionDescription": "Protégez-vous contre les empreintes digitales du navigateur en indiquant des informations génériques."
+        },
+        "whitelist": {
+            "title": "Whitelist",
+            "state_title_on": "Whitelist activée",
+            "state_title_off": "Whitelist désactivée",
+            "state_description": "Vous ne souhaitez jamais vous connecter à ZenMate lorsque vous naviguez sur des sites en particulier ? Ajoutez simplement ce dernier à votre whitelist et le VPN sera automatiquement désactivé sur le site souhaité.",
+            "website_url": "URL du site",
+            "websites_added": "Sites web déjà ajoutés",
+            "error_existing": "Vous avez déjà ajouté ce site à votre liste d’emplacements intelligents « Smart Location ». Un même site ne peut être à la fois sur vos listes « Smart Location » et sur votre whitelist. Retirez-le de l’une des listes pour continuer."
+        },
+        "stealth-connection": {
+            "title": "Connexion Stealth",
+            "state_title_on": "Connexion Stealth est activée",
+            "state_title_off": "Connexion Stealth est désactivée",
+            "ask_every_time": "Demander à chaque fois",
+            "state_description": "La <b>Connexion Stealth</b> supprime tous vos cookies, efface vos historiques de recherche et cache. Dès lors que vous êtes déconnecté du VPN, la fonctionnalité <b>Connexion Stealth</b> supprime la moindre trace de vos sessions depuis votre première connexion à ZenMate.",
+            "website_url": "URL du site",
+            "websites_added": "Sites web déjà ajoutés",
+            "error_existing": "Vous avez déjà ajouté ce site à votre liste d’emplacements intelligents « Smart Location ». Un même site ne peut être à la fois sur vos listes « Smart Location » et sur votre whitelist. Retirez-le de l’une des listes pour continuer."
+        }
+    },
+    "marketing_banner": {
+        "home1": "Protégez tous vos appareils – téléchargez notre ",
+        "home2": "et notre ",
+        "home3": "ou ",
+        "windows_app": "App Windows ",
+        "ios_app": "App iOS ",
+        "android_app": "App Android ",
+        "macos_app": "App macOS ",
+        "download_cta": "Télécharger maintenant",
+        "upgrade_cta": "Mettre à niveau maintenant"
+    },
+    "inactive_banner": {
+        "smart_location": {
+            "text": "Personnalisez la manière dont ZenMate se connecte à vos sites favoris en changeant automatiquement d’emplacement selon ce que vous visitez.",
+            "cta": "Débloquer maintenant"
+        },
+        "whitelist": {
+            "text": "Vous ne souhaitez jamais vous connecter à ZenMate lorsque vous naviguez sur des sites en particulier ? Ajoutez simplement ce dernier à votre whitelist et le VPN sera automatiquement désactivé sur le site souhaité.",
+            "cta": "Débloquer Maintenant"
+        },
+        "streaming": {
+            "text": "Accédez à vos films et séries TV indisponibles dans votre région et regardez tous vos programmes sans modération.",
+            "cta": "Débloquer vos contenus en streaming"
+        },
+        "stealth-connection": {
+            "text": "Supprimez la moindre trace de votre historique de session avec la fonctionnalité ZenMate Connexion Stealth, disponible pour tous les utilisateurs des versions ZenMate Pro et Ultimate.",
+            "cta": "Débloquer maintenant"
+        }
+    },
+    "intro": {
+        "intro-heading": "<b>Bienvenue sur ZenMate</b>",
+        "intro-default-heading": "<b>Créez et vérifiez votre compte</b><br /> pour profiter des avantages suivants :",
+        "already-account": "Vous avez déjà un compte ?",
+        "login-here": "Connectez-vous ici !",
+        "signup-now": "Inscrivez-vous maintenant !",
+        "seven-days": "7 jours d’essai gratuit"
+    },
+    "campaign": {
+        "heading": "À Découvrir avec <br><b>ZenMate Ultimate</b>",
+        "features": {
+            "0": "Plus de 3600 serveurs de plus de 74 pays",
+            "1": "Débloquez les sites web et les applications limitées.",
+            "2": "Contournez les géo-blocages de streaming",
+            "3": "Protection sur un nombre illimité d’appareils"
+        },
+        "cta": "Obtenez ZenMate Ultimate",
+        "subCta": "Pour seulement 2,22 €/mois sur une durée limitée",
+        "later": "Peut-être plus tard"
+    },
+    "queue": {
+        "heading": "Malheureusement tous nos <br> serveurs sont actuellement occupés ",
+        "heading2": "Pour éviter toute saturation, <br>vous pourrez vous connecter ultérieurement",
+        "no_waiting": "Marre d’attendre ?",
+        "upgrade": "Passez à <b>ZenMate Pro</b> et bénéficiez toujours de<br>serveurs premium",
+        "upgrade_now": "Mettre à niveau"
+    },
+    "campaign_trial": {
+        "heading": "<b>Passez à la version Ultimate</b><br> et profitez encore de",
+        "cta": "Passer à la version Ultimate"
+    },
+    "popup_validation": {
+        "heading": "Supprimer la moindre trace",
+        "paragraph": "La fonctionnalité <b>Connexion Stealth</b> est activée. Souhaitez-vous supprimer toute trace de votre session ? <small><br />(Suppression de vos cookies, historique de recherche et cache)</small>",
+        "no_ask": "Ne plus me demander et conserver mes paramètres",
+        "yes": "OUI",
+        "no": "NON"
+    },
+    "rateus": {
+        "heading": "Notre extension vous a plu ?",
+        "description": "Cliquez sur les étoiles pour donner votre avis"
+    },
+    "proxy-warning": {
+        "heading": "Avertissement Proxy !",
+        "description": "Une autre extension de navigateur contrôle vos paramètres proxy, empêchant <b>ZenMate</b> de fonctionner correctement. Veuillez désactiver toute extension conflictuelle.",
+        "cta": "Gérer les extensions"
+    },
+    "onboarding": {
+        "page1_menu": "Menu",
+        "page1_future": "Fonctionnalités de pointe",
+        "page1_connect": "Bouton de connexion",
+        "page2_click": "Cliquez ici pour changer votre emplacement",
+        "page3_congrats": "Félicitations !",
+        "page3_connected": "Vous êtes connecté !",
+        "page3_click": "Le bouton vibre, vous indiquant que vous pouvez pleinement profiter de ZenMate VPN.",
+        "page4_select": "Définissez votre emplacement de serveur",
+        "page4_dedicated": "Serveurs de streaming dédiés",
+        "page4_lcoation": "Ajoutez vos emplacements favoris.",
+        "close": "Fermer",
+        "footer-title":"Click anywhere to continue"
+    },
+    "streaming_optimizations": {
+        "US_OPT": "Optimisé pour Netflix",
+        "DE_OPT": "Netflix, YouTube, ZDF, Zattoo",
+        "IT_OPT": "Optimisé pour Amazon Prime"
+    },
+    "error_screen": {
+        "title": "Ce service est malheureusement indisponible dans votre région",
+        "content": "Indiquez-nous si vous souhaitez que ZenMate soit disponible dan votre région en remplissant <span>ce formulaire</span>"
+    },
+    "notifications": {
+        "logout": "Vous avez été déconnecté avec succès !"
+    },
+    "anonymous_consent": {
+        "title": "Le respect de votre vie privée",
+        "content": "Nous collectons les données anonymes suivantes relatives à votre utilisation de ZenMate VPN en version gratuite :",
+        "content2": "Nous recueillons la charge des serveurs par pays et les échecs de connexion, afin de nous assurer que tous les serveurs fonctionnent et de pouvoir les résoudre en temps réel pour une meilleure expérience utilisateur.",
+        "content3": "Si vous choisissez de ne pas autoriser la collecte de données anonymes en cas de dysfonctionnement de serveur, il sera plus compliqué pour nous d’identifier l’origine de la faille.",
+        "content4": "De plus amples informations relatives à la collecte de données anonymes recueillies et leur utilisation, sont disponibles sur nous ",
+        "private_policy": "Politique de confidentialité.",
+        "button1": "Oui, nous collectons des données anonymes conformément à notre politique de confidentialité",
+        "button2": "Non, ne collectez pas de données anonymes"
+    }
+}

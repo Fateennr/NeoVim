@@ -1,0 +1,6 @@
+2024/11/26-08:18:02.492 4f1 Reusing MANIFEST /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/11/26-08:18:02.497 4f1 Recovering log #220
+2024/11/26-08:18:02.499 4f1 Reusing old log /home/fateen_nr/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000220.log 
+2024/11/26-08:29:16.151 4e3 Level-0 table #224: started
+2024/11/26-08:29:16.161 4e3 Level-0 table #224: 59099 bytes OK
+2024/11/26-08:29:16.170 4e3 Delete type=0 #220

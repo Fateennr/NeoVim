@@ -1,0 +1,243 @@
+{
+    "login": {
+        "title": "Iniciar sessão",
+        "welcome": "Bem-vindo",
+        "email": "Nome de usuário/e-mail",
+        "password": "Senha",
+        "forgot_password": "Esqueceu a senha?",
+        "account_question": "Não tem uma conta?",
+        "signup_here": "Cadastre-se aqui!",
+        "error": "Nome de usuário e/ou senha inválidos",
+        "errors": {
+            "invalid-credentials": "Nome de usuário e/ou senha inválidos",
+            "rate-limit": "Muitas tentativas. Tente novamente mais tarde."
+        },
+        "cta": "Conectar-se"
+    },
+    "recover": {
+        "title": "Esqueci a senha",
+        "message": "Insira o endereço de e-mail que usou para se cadastrar. Enviaremos a você um e-mail com instruções sobre como redefinir sua senha.",
+        "error": "Digite um endereço de e-mail válido",
+        "email": "E-mail",
+        "back_to_login": "Voltar a iniciar sessão",
+        "cta": "Redefinir"
+    },
+    "recover_success": {
+        "title": "Verifique sua caixa de entrada",
+        "description": "Se o endereço de e-mail estiver registrado com a VPN da ZenMate, você deverá receber seu link de redefinição de senha lá."
+    },
+    "home": {
+        "protection_disabled": "Proteção desabilitada",
+        "state": "ZenMate desativada no momento",
+        "last_location": "Última localização usada",
+        "best_location": "Melhor localização",
+        "connected_to": "Conectado a",
+        "smart_location": "<b>Localização inteligente</b> está conectada a <b>{{country}}</b>"
+    },
+    "debug": {
+        "copy_debug": "Copiar registros",
+        "clear_debug": "Limpar registros",
+        "no_logs": "Sem registros no momento"
+    },
+    "menu": {
+        "title": "Menu",
+        "account_details": "Detalhes da conta",
+        "username": "Nome de usuário ",
+        "end_date": "Data de término",
+        "trial_end_date": "Teste termina em",
+        "manage_account": "Gerenciar conta",
+        "logout": "Sair",
+        "login": "Conectar-se",
+        "features": "Recursos",
+        "language": "Idioma",
+        "support": "Suporte",
+        "upgrade": "Compre Ultimate",
+        "upgrade_pro": "Compre Pro",
+        "trial_start": "Iniciar teste agora",
+        "tour": "Tour rápido",
+        "debug": "Depuração",
+        "debug_mode": "Modo de depuração",
+        "view_debug": "Exibir registro de depuração",
+        "dark_theme": "Dark Theme"
+    },
+    "servers": {
+        "title": "Alterar localização",
+        "all_countries": "Todos os países",
+        "streaming": "Serviços de streaming",
+        "favorites": "Favoritos",
+        "unblock_more": "Desbloquear mais servidores com Pro"
+    },
+    "features": {
+        "title": "Recursos",
+        "smart_location": {
+            "title": "Localização inteligente",
+            "state_title_on": "Localização inteligente ATIVADA",
+            "state_title_off": "Localização inteligente DESATIVADA",
+            "state_description": "Personalize como a ZenMate se conecta aos seus sites favoritos alternando automaticamente localizações quando você os visita!",
+            "website_url": "URL do site",
+            "change_country": "Alterar país",
+            "websites_added": "Sites já adicionados",
+            "error_existing": "Você já adicionou este site à sua Lista de permissões. O mesmo site não pode estar na lista de localização inteligente e na lista de permissões. Remova-o de uma delas para continuar."
+        },
+        "privacy": {
+            "title": "Privacidade",
+            "tracking_title": "Bloqueio de rastreamento",
+            "tracking_description": "Proteja sua privacidade bloqueando serviços de terceiros de rastrear atividades on-line.",
+            "malware_title": "Bloqueio de malware",
+            "malware_description": "Habilitar bloqueio de sites mal-intencionados e trechos de código antes que cheguem ao seu navegador.",
+            "webrtc_title": "WebRTC Protect",
+            "webrtc_description": "A extensão WebRTC Protect garante que seu endereço IP nunca seja revelado on-line.",
+            "noSpyCamera": "Sem câmera espiã",
+            "noSpyCameraDescription": "Proíba sites de acessar a câmera pelo navegador e filmar você sem o seu conhecimento ou consentimento.",
+            "noSpyAudio": "Sem áudio espião",
+            "noSpyAudioDescription": "Impeça sites de obter ilegalmente gravações de voz pelo microfone do seu computador.",
+            "blockGeoTracking": "Bloquear rastreamento geográfico",
+            "blockGeoTrackingDesctiption": "Impeça sites de determinar sua localização geográfica atual.",
+            "stopNetworkPredictions": "Interromper previsões da rede",
+            "stopNetworkPredictionsDescrption": "Interromper o Google de rastrear sua atividade por meio das previsões da rede, uma vez que o Google registra os sites visitados anteriormente.",
+            "stopSafeBrowsing": "Interromper rastreamento por navegação segura",
+            "stopSafeBrowsingDescrption": "O Google rastreia seus acessos a sites inseguros por meio do recurso de Navegação segura. Para garantir uma privacidade completa, desative-o.",
+            "privateCreditCard": "Cartão de crédito privado",
+            "privateCreditCardDescription": "Impeça o vazamento das suas informações bancárias a partes mal-intencionadas interrompendo a função de preenchimento automático do navegador.",
+            "privateAccess": "Endereço privado",
+            "privateAccessDescription": "Impeça que terceiros acessem suas informações geográficas desabilitando as configurações de preenchimento automático de endereço do navegador.",
+            "blockCookieColletion": "Bloquear coleta de cookies",
+            "blockCookieCollection": "Bloqueie sites de coletar cookies sem o seu consentimento.",
+            "blockCookiePopUps": "Bloquear pop-ups de cookies",
+            "blockCookiePopUpsDescription": "Bloqueie pop-ups de sites com notificações do tipo 'usamos cookies'.",
+            "fingerPrintProtection": "Proteção contra impressão digital",
+            "fingerPrintProtectionDescription": "Proteja-se contra a análise de impressão digital por parte do navegador fornecendo informações genéricas."
+        },
+        "whitelist": {
+            "title": "Lista de permissões",
+            "state_title_on": "Lista de permissões ATIVADA",
+            "state_title_off": "Lista de permissões DESATIVADA",
+            "state_description": "Não quer se conectar à ZenMate ao navegar por um site específico? Basta adicioná-lo à lista de permissões e a VPN será automaticamente desativada quando você visitar seu site favorito.",
+            "website_url": "URL do site",
+            "websites_added": "Sites já adicionados",
+            "error_existing": "Você já adicionou este site à sua lista de Localização inteligente. O mesmo site não pode estar na lista de localização inteligente e na lista de permissões. Remova-o de uma delas para continuar."
+        },
+        "stealth-connection": {
+            "title": "Conexão furtiva",
+            "state_title_on": "Conexão furtiva ATIVADA",
+            "state_title_off": "Conexão furtiva DESATIVADA",
+            "ask_every_time": "Sempre perguntar",
+            "state_description": "A <b>Conexão furtiva</b> remove seus cookies, limpa seu histórico de navegação e cache. Após se desconectar da VPN, a <b>Conexão furtiva</b> apagará todos os traços das suas atividades de navegação on-line desde sua primeira conexão à ZenMate.",
+            "website_url": "URL do site",
+            "websites_added": "Sites já adicionados",
+            "error_existing": "Você já adicionou este site à sua lista de Localização inteligente. O mesmo site não pode estar na lista de localização inteligente e na lista de permissões. Remova-o de uma delas para continuar."
+        }
+    },
+    "marketing_banner": {
+        "home1": "Proteja todos os seus dispositivos – Baixe nosso ",
+        "home2": "e nosso ",
+        "home3": "ou ",
+        "windows_app": "aplicativo para Windows ",
+        "ios_app": "aplicativo para iOS ",
+        "android_app": "aplicativo para Android ",
+        "macos_app": "aplicativo para macOS ",
+        "download_cta": "Baixar agora",
+        "upgrade_cta": "Compre agora"
+    },
+    "inactive_banner": {
+        "smart_location": {
+            "text": "Personalize como a ZenMate se conecta aos seus sites favoritos alternando automaticamente localizações ao visitá-las.",
+            "cta": "Desbloquear agora"
+        },
+        "whitelist": {
+            "text": "Não quer se conectar à ZenMate ao navegar por um site específico? Basta adicioná-lo à lista de permissões e a VPN será automaticamente desativada quando você visitar seu site favorito.",
+            "cta": "Desbloquear agora"
+        },
+        "streaming": {
+            "text": "Maratone todos os filmes e programas de TV que desejar, mesmo se não estiverem disponíveis no seu país.",
+            "cta": "Desbloquear streaming"
+        },
+        "stealth-connection": {
+            "text": "Apague automaticamente todos os traços da sua sessão de navegação com o recurso Conexão furtiva da ZenMate, disponível para usuários do ZenMate Pro e Ultimate.",
+            "cta": "Desbloquear agora"
+        }
+    },
+    "intro": {
+        "intro-heading": "<b>Bem-vindo à ZenMate</b>",
+        "intro-default-heading": "<b>Crie e verifique sua conta</b><br /> para experimentar:",
+        "already-account": "Já tem uma conta?",
+        "login-here": "Acesse aqui!",
+        "signup-now": "Cadastre-se agora!",
+        "seven-days": "7 dias de teste gratuito"
+    },
+    "campaign": {
+        "heading": "Descubra com o <br><b>ZenMate Ultimate</b>",
+        "features": {
+            "0": "Mais de 3600 servidores de mais de 74 países",
+            "1": "Desbloqueie sites e aplicativos restritos.",
+            "2": "Ignore restrições geográficas de streaming",
+            "3": "Proteção para dispositivos ilimitados"
+        },
+        "cta": "Obter ZenMate Ultimate",
+        "subCta": "Por apenas US$ 2,22/mês por tempo limitado",
+        "later": "Talvez mais tarde"
+    },
+    "queue": {
+        "heading": "Infelizmente, todos os nossos <br> servidores estão ocupados agora ",
+        "heading2": "Para evitar congestionamentos, <br> você poderá se conectar em breve",
+        "no_waiting": "Não quer esperar?",
+        "upgrade": "Compre o <b>ZenMate Pro</b> e você sempre<br> terá servidores premium à sua disposição",
+        "upgrade_now": "Compre agora"
+    },
+    "campaign_trial": {
+        "heading": "<b>Compre Ultimate</b><br> e continue experimentando",
+        "cta": "Compre Ultimate agora"
+    },
+    "popup_validation": {
+        "heading": "Apagar todos os meus passos",
+        "paragraph": "O recurso <b>Conexão furtiva</b> está ativado. Deseja apagar completamente todos os seus rastreamentos desta sessão? <small> <br />(remove seus cookies, limpa seu histórico de navegação e cache)</small>",
+        "no_ask": "Não perguntar novamente e lembrar minha configuração",
+        "yes": "SIM",
+        "no": "NÃO"
+    },
+    "rateus": {
+        "heading": "Aproveitando nossa extensão?",
+        "description": "Clique nas estrelas para compartilhar seus comentários"
+    },
+    "proxy-warning": {
+        "heading": "Aviso de proxy!",
+        "description": "Outra extensão de navegador está controlando suas configurações de proxy, impedindo o funcionamento da <b>ZenMate</b>. Desative qualquer extensão conflitante.",
+        "cta": "Gerenciar extensões"
+    },
+    "onboarding": {
+        "page1_menu": "Menu",
+        "page1_future": "Recursos incríveis",
+        "page1_connect": "Botão de conexão",
+        "page2_click": "Clique aqui para alterar a localização",
+        "page3_congrats": "Parabéns!",
+        "page3_connected": "Você se conectou!",
+        "page3_click": "O botão está pulsando, então agora você pode aproveitar totalmente o ZenMate VPN.",
+        "page4_select": "Selecione a localização do servidor",
+        "page4_dedicated": "Servidores de streaming dedicados",
+        "page4_lcoation": "Adicione a localização aos seus favoritos.",
+        "close": "Fechar",
+        "footer-title":"Click anywhere to continue"
+    },
+    "streaming_optimizations": {
+        "US_OPT": "Otimizado para Netflix",
+        "DE_OPT": "Netflix, YouTube, ZDF, Zattoo",
+        "IT_OPT": "Otimizado para Amazon Prime"
+    },
+    "error_screen": {
+        "title": "Infelizmente, o serviço não está disponível na sua área",
+        "content": "Informe-nos se gostaria que a ZenMate estivesse disponível na sua área, preenchendo uma <span>solicitação de atendimento ao cliente</span>"
+    },
+    "notifications": {
+        "logout": "Você foi desconectado automaticamente!"
+    },
+    "anonymous_consent": {
+        "title": "Privacidade",
+        "content": "Podemos coletar os seguintes dados anônimos sobre o seu uso da VPN gratuita da ZenMate:",
+        "content2": "Coletamos cargas de servidor por país e falhas em conexões, a fim de garantir o funcionamento de todos os servidores e resolver possíveis problemas em tempo real para uma experiência mais agradável.",
+        "content3": "Se você optar por não permitir a coleta de dados anônimos se um servidor não estiver funcionando, será mais difícil sabermos sobre o problema.",
+        "content4": "Todos os detalhes sobre os dados anônimos que coletamos e o que fazemos com eles são fornecidos na nossa ",
+        "private_policy": "Política de Privacidade.",
+        "button1": "Sim, vocês podem coletar dados anônimos de acordo com a sua política de privacidade",
+        "button2": "Não, não coletar dados anônimos"
+    }
+}

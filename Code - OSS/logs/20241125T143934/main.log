@@ -1,0 +1,5 @@
+2024-11-25 14:39:34.537 [info] update#setState disabled
+2024-11-25 14:39:34.537 [info] update#ctor - updates are disabled as there is no update URL
+2024-11-25 14:51:31.782 [info] Extension host with pid 8381 exited with code: 0, signal: unknown.
+2024-11-25 15:05:15.554 [error] ptyHost terminated unexpectedly with code 15
+2024-11-25 15:05:15.556 [warning] [UtilityProcess type: ptyHost, pid: 8570]: unable to kill the process
