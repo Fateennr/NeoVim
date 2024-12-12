@@ -1,6 +1,0 @@
-2024-11-25 19:00:40.133 [info] update#setState disabled
-2024-11-25 19:00:40.133 [info] update#ctor - updates are disabled as there is no update URL
-2024-11-25 19:01:37.059 [error] [sudo-prompt] received stderr: Error executing command as another user: No authentication agent found.
-
-2024-11-25 19:01:52.695 [info] Extension host with pid 2638 exited with code: 0, signal: unknown.
-2024-11-25 19:01:52.728 [error] [UtilityProcessWorker]: terminated unexpectedly with code 3159094, signal: unknown

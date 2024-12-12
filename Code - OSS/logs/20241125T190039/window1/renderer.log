@@ -1,4 +1,0 @@
-2024-11-25 19:00:40.698 [info] Started local extension host with pid 2638.
-2024-11-25 19:00:43.358 [info] [perf] Render performance baseline is 15ms
-2024-11-25 19:01:27.609 [error] [text file model] handleSaveError(11) - exit - resulted in a save error: Error: Unable to write file '/usr/lib/sddm/sddm.conf.d/default.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/lib/sddm/sddm.conf.d/default.conf') file:///usr/lib/sddm/sddm.conf.d/default.conf
-2024-11-25 19:01:37.071 [error] [text file model] handleSaveError(11) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///usr/lib/sddm/sddm.conf.d/default.conf
