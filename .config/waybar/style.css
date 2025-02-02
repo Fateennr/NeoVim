@@ -62,7 +62,7 @@
 }
 
 #battery {
-  color: @green;
+  color: yellow;
 }
 
 #battery.charging {
@@ -71,6 +71,18 @@
 
 #battery.warning:not(.charging) {
   color: @red;
+}
+
+@keyframes blink {
+    0% { background-color: red; color: white; }
+    50% { background-color: white; color: red; }
+    100% { background-color: red; color: white; }
+}
+
+
+#battery.critical:not(.charging){
+  animation: blink 1s infinite alternate;
+  color: #FFFFFF;
 }
 
 #backlight {
